@@ -31,7 +31,10 @@ class google(scrapy.Spider):
         
         response = scrapy.Selector(text=self.driver.page_source)
         
-        conference_xpath = ("//ul[@class='conflist']/li")
+        conference_xpath = ("/body/div[@class='body_content']/div[@class='mainpagecontent']/"
+                            "div[@id='citationindex']/div[@class='sciwrapper']/"
+                            "div[@id='scicontentnano']/div[@class='nano-content']/"
+                            "ul[@class='conflist']/li")
         print("TRYING")
         
         for i in range(0, len(response.xpath(conference_xpath))):
@@ -68,7 +71,7 @@ class google(scrapy.Spider):
             
             print("NEW URL")
             self.driver.get(url)
-            time.slee(3)
+            time.sleep(3)
             
         self.driver.close()
         #Get search box input. 
