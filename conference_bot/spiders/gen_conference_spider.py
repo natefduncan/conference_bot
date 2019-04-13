@@ -31,7 +31,8 @@ class google(scrapy.Spider):
         
         response = scrapy.Selector(text=self.driver.page_source)
         
-        conference_xpath = ("/ul[@class='conflist']/li")
+        conference_xpath = ("//ul[@class='conflist']/li")
+        print("TRYING")
         
         for i in response.xpath(conference_xpath):
             print(i)
