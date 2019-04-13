@@ -56,6 +56,7 @@ class google(scrapy.Spider):
                     talk_xpath = talks_xpath + "[%s]/a[contains(@onclick, 'getTalk')]" % (str(k+1))
                     print(response.xpath(talk_xpath))
                     talk = self.driver.find_element_by_xpath(talk_xpath)
+                    print(talk)
                     talk.click()
                     time.sleep(1)
                     
