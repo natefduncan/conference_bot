@@ -35,7 +35,7 @@ class google(scrapy.Spider):
         print("TRYING")
         
         for i in range(0, len(response.xpath(conference_xpath))):
-            conference = self.driver.find_element_by_xpath(conference_xpath + "/a[%s]" % (str(i+1)))
+            conference = self.driver.find_element_by_xpath(conference_xpath + "[%s]/a" % (str(i+1)))
             conference.click()
             time.sleep(1)
             
@@ -45,7 +45,13 @@ class google(scrapy.Spider):
             response2.xpath(talk_xpath)
             
             for j in range(0, len(response2.xpath(talk_xpath))):
-                print(response2.xpath(talk_xpath).extract()[j])
+                talk = self.driver.find_element_by_xpath(talk_xpath + "[%s]/a" % (str(j+1)))
+                talk.click()
+                time.sleep(1)
+                response3 = scrapy.Selector(text=self.driver.page_source)
+                
+                text_xpath = "//div[@class='primary']/p"
+                print(response3.xpath(text_xpath).extract())
                 
             self.driver.get(url)
             time.sleep(3)
