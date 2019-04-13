@@ -54,7 +54,7 @@ class google(scrapy.Spider):
                     
                     response3 = scrapy.Selector(text=self.driver.page_source)
                 
-                    text_xpath = "//div[@id='primary']/p"
+                    text_xpath = "//div[@id='primary']/p/text()"
                     print("".join(response3.xpath(text_xpath).extract()))
                 
             self.driver.get(url)
