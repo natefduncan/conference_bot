@@ -35,7 +35,7 @@ class google(scrapy.Spider):
         print("TRYING")
         
         for i in range(0, len(response.xpath(conference_xpath))):
-            self.driver.get(url)
+            print("IN 1")
             time.sleep(3)
             
             conference = self.driver.find_element_by_xpath(conference_xpath + "[%s]/a" % (str(i+1)))
@@ -47,9 +47,11 @@ class google(scrapy.Spider):
             response2 = scrapy.Selector(text=self.driver.page_source)
             
             for j in range(0, len(response2.xpath(session_xpath))):
+                print("IN 2")
                 talks_xpath = session_xpath + "[%s]/li" % (str(j+1))
                 
                 for k in range(0, len(response2.xpath(talks_xpath))):
+                    print("IN 3")
                     talk_xpath = talks_xpath + "[%s]/a" % (str(k+1))
                     talk = self.driver.find_element_by_xpath(talk_xpath)
                     talk.click()
@@ -59,7 +61,11 @@ class google(scrapy.Spider):
                 
                     text_xpath = "//div[@id='primary']/p/text()"
                     print("".join(response3.xpath(text_xpath).extract()))
-                
+            
+            print("NEW URL")
+            self.driver.get(url)
+            time.slee(3)
+            
         self.driver.close()
         #Get search box input. 
         #search_box = self.driver.find_element_by_id("searchboxinput")
