@@ -1,985 +1,985 @@
-< h t m l > < h e a d > 
-         < m e t a   c h a r s e t = " U T F - 8 " > 
-         < t i t l e > S c r i p t u r e   C i t a t i o n   I n d e x < / t i t l e > 
-         
-         < ! - - - - - - - - - - - - - -   C S S   - - - - - - - - - - - - - - > 
-         < l i n k   r e l = " s t y l e s h e e t "   m e d i a = " s c r e e n "   h r e f = " / s t a t i c / h o m e p a g e / s t y l e s / c i t a t i o n . c s s " > 
-         < l i n k   r e l = " s t y l e s h e e t "   h r e f = " / s t a t i c / h o m e p a g e / s t y l e s / s t p j s . c s s " > 
-         < l i n k   r e l = " s t y l e s h e e t "   h r e f = " / s t a t i c / h o m e p a g e / s t y l e s / j o d . c s s " > 
-         < l i n k   r e l = " s t y l e s h e e t "   h r e f = " / s t a t i c / h o m e p a g e / s t y l e s / g c e r a . c s s " > 
-         < l i n k   r e l = " s t y l e s h e e t "   h r e f = " / s t a t i c / h o m e p a g e / s t y l e s / g c e n . c s s " > 
-         < l i n k   r e l = " s t y l e s h e e t "   m e d i a = " s c r e e n "   h r e f = " / s t a t i c / h o m e p a g e / s t y l e s / a b o u t . c s s " > 
-         < l i n k   r e l = " s t y l e s h e e t "   m e d i a = " p r i n t "   h r e f = " / s t a t i c / h o m e p a g e / s t y l e s / c i t a t i o n _ p r i n t . c s s " > 
-         < l i n k   r e l = " s t y l e s h e e t "   m e d i a = " s c r e e n "   h r e f = " / s t a t i c / h o m e p a g e / s t y l e s / b o o t s t r a p . c s s " > 
-         < l i n k   r e l = " s t y l e s h e e t "   m e d i a = " s c r e e n "   h r e f = " / s t a t i c / h o m e p a g e / s t y l e s / n a n o s c r o l l e r . c s s " > 
-         < l i n k   r e l = " s t y l e s h e e t "   m e d i a = " s c r e e n "   h r e f = " / s t a t i c / h o m e p a g e / s t y l e s / b o o t s t r a p - r e s p o n s i v e . c s s " > 
-         < l i n k   r e l = " s t y l e s h e e t "   h r e f = " / s t a t i c / h o m e p a g e / s t y l e s / m a p s c r i p . c s s " > 
-                 
-         
-         < ! - - - - - - - - - - - - - -   J a v a s c r i p t   - - - - - - - - - - - - - - >         
-         < s c r i p t   t y p e = " t e x t / j a v a s c r i p t "   a s y n c = " "   s r c = " h t t p s : / / s s l . g o o g l e - a n a l y t i c s . c o m / g a . j s " > < / s c r i p t > < s c r i p t   s r c = " / s t a t i c / h o m e p a g e / s c r i p t s / j q u e r y - 1 . 1 1 . 2 . m i n . j s " > < / s c r i p t >         
-         < s c r i p t   s r c = " / s t a t i c / h o m e p a g e / s c r i p t s / j q u e r y . n a n o s c r o l l e r . m i n . j s " > < / s c r i p t >         
-         < s c r i p t   s r c = " / s t a t i c / h o m e p a g e / s c r i p t s / b o o t s t r a p . j s " > < / s c r i p t > 
-         < s c r i p t   s r c = " / s t a t i c / h o m e p a g e / s c r i p t s / c o o k i e . j s " > < / s c r i p t > 
- 
-         < s c r i p t   s r c = " / d j a n g o _ m a k o _ p l u s / d m p - c o m m o n . m i n . j s " > < / s c r i p t > 
-         < s c r i p t > D M P _ C O N T E X T . s e t ( " 5 . 5 . 3 " ,   " u 5 c b 2 4 c f 3 b 0 f 9 5 0 9 a 4 c 8 e 1 1 3 1 0 0 6 c 8 9 " ,   { " _ _ r o u t e r _ _ " : { " t e m p l a t e " : " h o m e p a g e / i n d e x " , " a p p " : " h o m e p a g e " , " p a g e " : " i n d e x " } , " u t c _ e p o c h " : 1 5 5 5 1 8 8 9 7 9 . 8 4 7 8 9 8 } ,   [ " h o m e p a g e / b a s e " ,   " h o m e p a g e / i n d e x " ] ) ; < / s c r i p t > < l i n k   d a t a - c o n t e x t = " u 5 c b 2 4 c f 3 b 0 f 9 5 0 9 a 4 c 8 e 1 1 3 1 0 0 6 c 8 9 "   r e l = " s t y l e s h e e t "   t y p e = " t e x t / c s s "   h r e f = " / s t a t i c / h o m e p a g e / s t y l e s / b a s e . c s s ? v = 5 c 8 2 a b a 4 0 0 0 0 0 0 0 0 " > < s c r i p t   d a t a - c o n t e x t = " u 5 c b 2 4 c f 3 b 0 f 9 5 0 9 a 4 c 8 e 1 1 3 1 0 0 6 c 8 9 "   s r c = " / s t a t i c / h o m e p a g e / s c r i p t s / b a s e . j s ? v = 5 c 8 2 a b a 3 8 3 f 1 d 8 c b " > < / s c r i p t > < s c r i p t   d a t a - c o n t e x t = " u 5 c b 2 4 c f 3 b 0 f 9 5 0 9 a 4 c 8 e 1 1 3 1 0 0 6 c 8 9 "   s r c = " / s t a t i c / h o m e p a g e / s c r i p t s / i n d e x . j s ? v = 5 c 8 2 a b a 3 7 f 4 5 3 2 b b " > < / s c r i p t > 
- 
-         < ! - -   < s c r i p t   t y p e = " t e x t / j a v a s c r i p t "   s r c = " h t t p s : / / w w w . g o o g l e . c o m / j s a p i " > < / s c r i p t > 
-         < s c r i p t   t y p e = " t e x t / j a v a s c r i p t "   s r c = " / s t a t i c / h o m e p a g e / s c r i p t s / e x t e n s i o n s - 0 . 2 . 1 . p a c k . j s " > < / s c r i p t > 
-         < s c r i p t   s r c = " h t t p s : / / w w w . g o o g l e . c o m / u d s / ? f i l e = e a r t h & a m p ; v = 1 "   t y p e = " t e x t / j a v a s c r i p t " > < / s c r i p t > 
-         < s c r i p t   s r c = " h t t p s : / / w w w . g o o g l e . c o m / u d s / a p i / e a r t h / 1 . 0 / d b 2 2 e 5 6 9 3 e 0 a 8 d e 1 f 6 2 f 3 5 3 6 f 5 a 8 d 7 d 3 / d e f a u l t . I . j s "   t y p e = " t e x t / j a v a s c r i p t " > < / s c r i p t >   - - > 
-         
- < s c r i p t   t y p e = " t e x t / j a v a s c r i p t " > 
- f u n c t i o n   s c r o l l T o ( n a m e )   { 
-         v a r   t a r g e t E l e m e n t   =   d o c u m e n t . g e t E l e m e n t B y I d ( n a m e ) ; 
-         t a r g e t E l e m e n t . s c r o l l I n t o V i e w ( ) ; 
- } 
- < / s c r i p t > 
- < / h e a d > 
- 
- < b o d y > 
-         < d i v   i d = " b o d y _ c o n t e n t " > 
-                 < d i v   c l a s s = " m a i n p a g e c o n t e n t " > 
-                         < d i v   i d = " s c r i p t u r e s 2 "   c l a s s = " s i d e c o l u m n "   s t y l e = " o v e r f l o w - y :   h i d d e n ;   t o p :   0 p x ;   o p a c i t y :   1 ;   z - i n d e x :   2 ; " > 
- 
-     < d i v   c l a s s = " s c r i p t u r e w r a p p e r " > 
-         < d i v   i d = " s c r i p c r u m b "   s t y l e = " o p a c i t y :   1 ; " > 
-                 < u l   c l a s s = " c r u m b " > 
-                                         < l i   c l a s s = " l a s t c r u m b " > 
-                                                 < s p a n   c l a s s = " l a r g e c r u m b " > T h e & n b s p ; S c r i p t u r e s < / s p a n > 
-                                                 < s p a n   c l a s s = " s m a l l c r u m b   h i d d e n c r u m b " > S c r i p t u r e s < / s p a n > 
-                                 < / l i > 
-                                         < l i   c l a s s = " l a s t c r u m b " > 
-                                                 < s p a n   c l a s s = " l a r g e c r u m b " > < / s p a n > 
-                                                 < s p a n   c l a s s = " s m a l l c r u m b   h i d d e n c r u m b " > < / s p a n > 
-                                 < / l i > 
-                 < / u l > 
-         < / d i v > 
-         
-         < d i v   c l a s s = " s c r i p t u r e c o n t e n t   n a n o   h a s - s c r o l l b a r " > 
-                 < d i v   c l a s s = " n a n o - c o n t e n t "   t a b i n d e x = " 0 "   s t y l e = " r i g h t :   - 2 3 p x ; " > 
-                 
-                         < d i v   c l a s s = " v o l u m e t i t l e " > 
-                         O l d   T e s t a m e n t 
-                         < / d i v > 
-                         < u l   c l a s s = " v o l u m e c o n t e n t s " > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 0 1 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > G e n e s i s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 0 2 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > E x o d u s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 0 3 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > L e v i t i c u s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 0 4 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > N u m b e r s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 0 5 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > D e u t . < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 0 6 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > J o s h u a < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 0 7 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > J u d g e s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 0 8 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > R u t h < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 0 9 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > 1   S a m u e l < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 1 0 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > 2   S a m u e l < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 1 1 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > 1   K i n g s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 1 2 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > 2   K i n g s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 1 3 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > 1   C h r o n i c l e s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 1 4 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > 2   C h r o n i c l e s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 1 5 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > E z r a < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 1 6 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > N e h e m i a h < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 1 7 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > E s t h e r < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 1 8 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > J o b < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 1 9 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > P s a l m s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 2 0 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > P r o v e r b s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 2 1 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > E c c l e s i a s t e s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 2 2 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > S o n g   o f   S o l . < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 2 3 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > I s a i a h < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 2 4 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > J e r e m i a h < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 2 5 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > L a m e n t a t i o n s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 2 6 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > E z e k i e l < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 2 7 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > D a n i e l < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 2 8 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > H o s e a < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 2 9 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > J o e l < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 3 0 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > A m o s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 3 1 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > O b a d i a h < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 3 2 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > J o n a h < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 3 3 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > M i c a h < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 3 4 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > N a h u m < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 3 5 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > H a b a k k u k < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 3 6 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > Z e p h a n i a h < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 3 7 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > H a g g a i < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 3 8 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > Z e c h a r i a h < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 3 9 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > M a l a c h i < / a > 
-                                 < / l i > < ! - - 
-                 - - > < / u l > 
-                         
-                         < d i v   c l a s s = " v o l u m e t i t l e " > 
-                         N e w   T e s t a m e n t 
-                         < / d i v > 
-                         < u l   c l a s s = " v o l u m e c o n t e n t s " > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 4 0 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > M a t t h e w < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 4 1 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > M a r k < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 4 2 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > L u k e < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 4 3 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > J o h n < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 4 4 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > A c t s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 4 5 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > R o m a n s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 4 6 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > 1   C o r i n t h i a n s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 4 7 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > 2   C o r i n t h i a n s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 4 8 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > G a l a t i a n s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 4 9 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > E p h e s i a n s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 5 0 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > P h i l i p p i a n s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 5 1 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > C o l o s s i a n s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 5 2 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > 1   T h e s s a l o n i a n s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 5 3 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > 2   T h e s s a l o n i a n s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 5 4 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > 1   T i m o t h y < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 5 5 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > 2   T i m o t h y < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 5 6 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > T i t u s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 5 7 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > P h i l e m o n < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 5 8 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > H e b r e w s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 5 9 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > J a m e s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 6 0 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > 1   P e t e r < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 6 1 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > 2   P e t e r < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 6 2 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > 1   J o h n < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 6 3 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > 2   J o h n < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 6 4 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > 3   J o h n < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 6 5 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > J u d e < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 1 6 6 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > R e v e l a t i o n < / a > 
-                                 < / l i > < ! - - 
-                 - - > < / u l > 
-                         
-                         < d i v   c l a s s = " v o l u m e t i t l e " > 
-                         B o o k   o f   M o r m o n 
-                         < / d i v > 
-                         < u l   c l a s s = " v o l u m e c o n t e n t s " > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 2 0 1 & a m p ; c h a p t e r = 0 & a m p ; v e r s e s = & a m p ; j s t = ' ) " > T i t l e   P a g e < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 2 0 2 & a m p ; c h a p t e r = 0 & a m p ; v e r s e s = & a m p ; j s t = ' ) " > I n t r o d u c t i o n < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 2 0 3 & a m p ; c h a p t e r = 0 & a m p ; v e r s e s = & a m p ; j s t = ' ) " > T h r e e   W i t n e s s e s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 2 0 4 & a m p ; c h a p t e r = 0 & a m p ; v e r s e s = & a m p ; j s t = ' ) " > E i g h t   W i t n e s s e s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 2 0 5 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > 1   N e p h i < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 2 0 6 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > 2   N e p h i < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 2 0 7 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > J a c o b < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 2 0 8 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > E n o s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 2 0 9 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > J a r o m < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 2 1 0 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > O m n i < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 2 1 1 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > W o r d s   o f   M o r m . < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 2 1 2 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > M o s i a h < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 2 1 3 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > A l m a < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 2 1 4 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > H e l a m a n < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 2 1 5 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > 3   N e p h i < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 2 1 6 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > 4   N e p h i < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 2 1 7 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > M o r m o n < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 2 1 8 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > E t h e r < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 2 1 9 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > M o r o n i < / a > 
-                                 < / l i > < ! - - 
-                 - - > < / u l > 
-                         
-                         < d i v   c l a s s = " v o l u m e t i t l e " > 
-                         D o c t r i n e   a n d   C o v e n a n t s 
-                         < / d i v > 
-                         < u l   c l a s s = " v o l u m e c o n t e n t s " > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 3 0 1 & a m p ; c h a p t e r = 0 & a m p ; v e r s e s = & a m p ; j s t = ' ) " > I n t r o d u c t i o n < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 3 0 2 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > S e c t i o n s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 3 0 3 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > O f f i c i a l   D e c l . < / a > 
-                                 < / l i > < ! - - 
-                 - - > < / u l > 
-                         
-                         < d i v   c l a s s = " v o l u m e t i t l e " > 
-                         P e a r l   o f   G r e a t   P r i c e 
-                         < / d i v > 
-                         < u l   c l a s s = " v o l u m e c o n t e n t s " > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 4 0 1 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > M o s e s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 4 0 2 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > A b r a h a m < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 4 0 3 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > F a c s i m i l e s < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 4 0 4 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > J S — M a t t h e w < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 4 0 5 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > J S — H i s t o r y < / a > 
-                                 < / l i > < ! - - 
-                         - - > < l i > 
-                                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c r i p t u r e ( ' ? b o o k = 4 0 6 & a m p ; c h a p t e r = & a m p ; v e r s e s = & a m p ; j s t = ' ) " > A r t i c l e s   o f   F a i t h < / a > 
-                                 < / l i > < ! - - 
-                 - - > < / u l > 
-                         
-         < / d i v >   
-         < d i v   c l a s s = " n a n o - p a n e " > < d i v   c l a s s = " n a n o - s l i d e r "   s t y l e = " h e i g h t :   1 3 1 p x ;   t r a n s f o r m :   t r a n s l a t e ( 0 p x ,   0 p x ) ; " > < / d i v > < / d i v > < / d i v >   
- 
-     < / d i v > 
-     < d i v   i d = " b l o c k C o n t e n t L e f t " > 
-             < b u t t o n   t y p e = " b u t t o n "   c l a s s = " t o g g l e V i s i b i l i t y L e f t   b l o c k C o n t e n t B u t t o n "   t i t l e = " T o g g l e   l e f t   p a n e l " > < / b u t t o n > 
-     < / d i v > 
-     < b u t t o n   t y p e = " b u t t o n "   c l a s s = " t o g g l e V i s i b i l i t y L e f t   s i d e n a v   s i d e n a v L e f t "   t i t l e = " T o g g l e   l e f t   p a n e l " > < / b u t t o n > 
-     
-     
- < / d i v >   
-                         < d i v   i d = " s c r i p t u r e s "   c l a s s = " s i d e c o l u m n "   s t y l e = " l e f t :   0 p x ;   z - i n d e x :   1 ;   o p a c i t y :   1 ;   r i g h t :   5 0 0 0 p x ; " > L o a d i n g . . . < / d i v > 
-                 
-                         < d i v   i d = " c e n t e r c o l u m n "   s t y l e = " o p a c i t y :   1 ;   z - i n d e x :   1 2 ; " > 
- 
- < d i v   i d = " c e n t e r n a v b a r " > 
-         < d i v   i d = " a b o u t l a b e l "   c l a s s = " v i s i b l e l a b e l " > A b o u t < / d i v > 
-         < d i v > 
-                 < a   c l a s s = " m e n u   d r o p d o w n - t o g g l e "   d a t a - t o g g l e = " d r o p d o w n "   h r e f = " # " > < / a > 
-                 < u l   c l a s s = " n a v   d r o p d o w n - m e n u   d r o p 3 "   r o l e = " m e n u "   a r i a - l a b e l l e d b y = " d r o p 2 " > 
-                         < l i > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t T a l k ( ) ; " > 
-                                 A b o u t < / a > < / l i > 
-                 < / u l > 
-         < / d i v > 
- < / d i v > 
- < d i v   i d = " c e n t e r c o n t e n t " > 
-         < d i v   i d = " t a l k c o n t e n t " > 
-                 < d i v   c l a s s = " n a n o   h a s - s c r o l l b a r " > 
-                 < d i v   i d = " t a l k w r a p p e r "   c l a s s = " a b o u t w r a p p e r   n a n o - c o n t e n t "   t a b i n d e x = " 0 "   s t y l e = " r i g h t :   - 2 3 p x ; " > 
-                         < d i v   i d = " a b o u t c o n t e n t " > 
-                         < a   n a m e = " t o p " > < / a > < d i v   i d = " b a n n e r " > < i m g   i d = " b a n n e r I m g "   s r c = " / s t a t i c / / h o m e p a g e / m e d i a / i m a g e s / B a n n e r - 7 0 3 - w o o d . j p g " > < / d i v > 
-                         < d i v   i d = " b t i t l e " > < i m g   i d = " b a n n e r T i t l e I m g "   s r c = " / s t a t i c / / h o m e p a g e / m e d i a / i m a g e s / C i t a t i o n I n d e x T i t l e . p n g " > < / d i v > 
-                         < h 2   c l a s s = " a b o u t " > V e r s i o n   3 . 5 . 0 < / h 2 > 
-                         < h 3 > B y   S t e p h e n   W .   L i d d l e   a n d   R i c h a r d   C .   G a l b r a i t h < / h 3 > 
-                         < ! - - 
-                         < c e n t e r > < p   a l i g n = " c e n t e r " > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) "   c l a s s = " b u t t o n "   o n c l i c k = " s c r o l l T o ( ' o v e r v i e w T a r g e t ' ) " > O v e r v i e w < / a > 
-                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) "   c l a s s = " b u t t o n "   o n c l i c k = " s c r o l l T o ( ' s e a r c h T a r g e t ' ) " > S e a r c h < / a > 
-                                 < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) "   c l a s s = " b u t t o n "   o n c l i c k = " s c r o l l T o ( ' h i s t o r y T a r g e t ' ) " > H i s t o r y < / a > < / p > < / c e n t e r > 
-                         - - > 
- 
-                         < b r > 
-                         < p   c l a s s = " n e w " > < b > N u e v o : < / b >   A h o r a   d i s p o n i b l e   e n   e s p a ñ o l :   v é a s e   < a   h r e f = " h t t p s : / / e s c r i t u r a s . b y u . e d u " > h t t p s : / / e s c r i t u r a s . b y u . e d u < / a > . < / p > 
-                         < a   n a m e = " o v e r v i e w "   i d = " o v e r v i e w T a r g e t " > < / a > < h 2   c l a s s = " s e c t " > O v e r v i e w < / h 2 > 
-                         < p > W e l c o m e   t o   t h e   S c r i p t u r e   C i t a t i o n   I n d e x .     T h i s   i n d e x ,   f o u n d   o n   t h e   r i g h t   s i d e   o f   y o u r   b r o w s e r   w i n d o w , 
-                         l i n k s   f r o m   s c r i p t u r e s   t o   t h e   g e n e r a l   c o n f e r e n c e   t a l k s ,   < i > J o u r n a l   o f   D i s c o u r s e s < / i >   s p e e c h e s ,   a n d 
-                         w r i t i n g s   i n   < i > T e a c h i n g s   o f   t h e   P r o p h e t   J o s e p h   S m i t h < / i >   t h a t   c i t e   t h o s e 
-                         s c r i p t u r e s . & n b s p ;   S o ,   f o r   e x a m p l e ,   s u p p o s e   y o u   w a n t   t o   k n o w   w h o   h a s   c i t e d 
-                         1 & n b s p ; N e . & n b s p ; 3 : 7   i n   g e n e r a l   c o n f e r e n c e ;   t a p   o n   t h e   F i r s t   N e p h i   b u t t o n 
-                         f o l l o w e d   b y   t h e   1 & n b s p ; N e . & n b s p ; 3   b u t t o n ;   t h e r e   y o u ' l l   f i n d   t h e   a n s w e r . & n b s p ; 
-                         W h o   h a s   q u o t e d   M a t t . & n b s p ; 5 : 4 8 ? & n b s p ;   U s e   t h e   N e w   T e s t a m e n t   i n d e x   t o   f i n d   o u t . < / p > 
- 
-                         < p > T h e   p a n e l   o n   t h e   l e f t   s i d e   o f   y o u r   b r o w s e r   l e t s   y o u   r e a d   t h e   s c r i p t u r e s ,   i n c l u d i n g 
-                         t h e   K i n g   J a m e s   V e r s i o n   a n d   J o s e p h   S m i t h   T r a n s l a t i o n   o f   t h e   B i b l e ,   t h e   B o o k   o f   M o r m o n , 
-                         D o c t r i n e   a n d   C o v e n a n t s ,   a n d   t h e   P e a r l   o f   G r e a t   P r i c e .     T h i s   i s   n o t   t h e   o f f i c i a l 
-                         v e r s i o n   o f   t h e   s t a n d a r d   w o r k s .     G o   t o   < a   h r e f = " h t t p s : / / w w w . l d s . o r g / s c r i p t u r e s " > w w w . L D S . o r g / s c r i p t u r e s < / a > 
-                         f o r   t h e   o f f i c i a l   p u b l i c a t i o n   o f   T h e   C h u r c h   o f   J e s u s   C h r i s t   o f   L a t t e r - d a y   S a i n t s . 
-                         A m o n g   t h e   d i f f e r e n c e s   b e t w e e n   t h i s   v e r s i o n   a n d   t h e   C h u r c h ' s   o f f i c i a l 
-                         v e r s i o n   a r e   t h a t   w e   d o   n o t   i n c l u d e   t h e i r   f o o t n o t e s ,   c h a p t e r   s u m m a r i e s ,   a n d   s t u d y   h e l p s 
-                         s u c h   a s   t h e   B i b l e   D i c t i o n a r y   a n d   T o p i c a l   G u i d e . < / p > 
- 
-                         < p > W e   h a v e   i n d e x e d   t h e   s c r i p t u r e s   c i t e d   b y   s p e a k e r s   i n   G e n e r a l   C o n f e r e n c e 
-                         b e t w e e n   1 9 4 2   a n d   t h e   p r e s e n t ,   a n d   t h o s e   c i t e d   b y   s p e a k e r s   r e c o r d e d   i n   t h e 
-                         < i > J o u r n a l   o f   D i s c o u r s e s < / i >   b e t w e e n   1 8 3 9   a n d   1 8 8 6 . & n b s p ;   T h e   c i t a t i o n s   i n 
-                         < i > T e a c h i n g s   o f   t h e   P r o p h e t   J o s e p h   S m i t h < / i >   c o m e   f r o m   t h e   s p e c i a l   e d i t i o n , 
-                         < i > S c r i p t u r a l   T e a c h i n g s   o f   t h e   P r o p h e t   J o s e p h   S m i t h < / i > ,   e d i t e d   b y   R i c h a r d   C . 
-                         G a l b r a i t h   a n d   p u b l i s h e d   b y   D e s e r e t   B o o k   i n   1 9 9 3   ( I S B N   0 8 7 5 7 9 6 4 7 8 ) . < / p > 
- 
-                         < p > T o   b e g i n ,   c l i c k   o n   o n e   o f   t h e   b o o k s   a n d   c h a p t e r s   i n   t h e   i n d e x   a n d   y o u ' l l   s e e 
-                         a   l i s t   o f   r e f e r e n c e s   f o r   v e r s e s   i n   t h a t   c h a p t e r . & n b s p ;   A   r e f e r e n c e   l o o k s   l i k e 
-                         t h i s :   < b > 2   P e t .   1 : 4 < / b > .     W h e n   y o u   s e l e c t   t h e   < b > 2   P e t .   1 : 4 < / b >   i t e m ,   y o u   w i l l   s e e 
-                         a   l i s t   o f   c i t a t i o n s   f o r   2   P e t e r   c h a p t e r   1   v e r s e   4 .     C i t a t i o n s   o c c u r   i n   t h r e e   f o r m s . 
- 
-                         < / p > < p > < b > 1 .   G e n e r a l   C o n f e r e n c e : < / b > < / p > 
-                         < d i v   c l a s s = " l i s t " > 
-                                 < u l   c l a s s = " r e f e r e n c e s b l o c k " > < l i > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   c l a s s = " r e f c o u n t e r " > < d i v   c l a s s = " r e f e r e n c e   r e f e r e n c e w a t c h   r e f e r e n c e l i s t e n "   s t y l e = " w i d t h :   3 0 2 p x ; " > 2 0 0 6 – A : 1 1 4 ,   J a m e s   E .   F a u s t < / d i v > < d i v   c l a s s = " t a l k t i t l e   t a l k t i t l e w a t c h   t a l k t i t l e l i s t e n "   s t y l e = " w i d t h :   3 0 2 p x ; " > Y o u r   L i g h t — a   S t a n d a r d   t o   A l l   N a t i o n s < / d i v > < / a > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   t i t l e = " W a t c h   t a l k   a t   l d s . o r g "   c l a s s = " w a t c h l i n k " > < d i v   c l a s s = " w a t c h t a l k " > W a t c h < / d i v > < / a > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   t i t l e = " L i s t e n   t o   t a l k   a t   l d s . o r g "   c l a s s = " l i s t e n l i n k " > < d i v   c l a s s = " l i s t e n t a l k " > L i s t e n < / d i v > < / a > < / l i > < / u l > 
-                         < / d i v > 
-                         < p > “ 2 0 0 6 ”   i s   t h e   y e a r   o f   t h e   c o n f e r e n c e ,   “ A ”   m e a n s   A p r i l   ( o r   “ O ”   f o r   O c t o b e r ) , 
-                         “ 1 1 4 ”   i s   t h e   p a g e   n u m b e r   i n   t h e   < i > E n s i g n < / i >   ( 1 9 7 1 – p r e s e n t )   o r   < i > C o n f e r e n c e   R e p o r t s < / i >   ( 1 9 4 2 – 1 9 7 0 ) . 
-                         “ J a m e s   E .   F a u s t ”   i s   t h e   s p e a k e r   n a m e ,   a n d   t h e   t a l k   t i t l e   a p p e a r s   i n   s m a l l e r 
-                         t e x t   o n   t h e   s e c o n d   l i n e .     T h e   i c o n s   l a b e l e d   W a t c h   a n d   L i s t e n   t a k e   y o u   t o   L D S . o r g   f o r   a   v i d e o   o r   a u d i o 
-                         p r e s e n t a t i o n   o f   t h e   t a l k .     A u d i o   a n d   v i d e o   a r e   a v a i l a b l e   f o r   m o r e   r e c e n t   c o n f e r e n c e   t a l k s ,   b u t   n o t   f o r 
-                         o l d e r   t a l k s . < / p > 
- 
-                         < p > < b > 2 .   J o u r n a l   o f   D i s c o u r s e s : < / b > < / p > 
-                         < d i v   c l a s s = " l i s t " > 
-                                 < u l   c l a s s = " r e f e r e n c e s b l o c k " > 
-                                         < l i > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   c l a s s = " r e f c o u n t e r " > < d i v   c l a s s = " r e f e r e n c e   r e f e r e n c e w a t c h   r e f e r e n c e l i s t e n "   s t y l e = " w i d t h :   3 0 2 p x ; " > J D   1 0 : 1 9 4 a ,   B r i g h a m   Y o u n g < / d i v > < d i v   c l a s s = " t a l k t i t l e   t a l k t i t l e w a t c h   t a l k t i t l e l i s t e n "   s t y l e = " w i d t h :   3 0 2 p x ; " > K n o w l e d g e ,   C o r r e c t l y   A p p l i e d ,   E t c . < / d i v > < / a > 
-                                         < / l i > 
-                                 < / u l > 
-                         < / d i v > 
-                         < p > “ 1 0 ”   m e a n s   v o l u m e   1 0   o f   t h e   < i > J o u r n a l   o f   D i s c o u r s e s < / i > ,   “ 1 9 4 ” 
-                         i s   t h e   p a g e   n u m b e r ,   “ a ”   i n d i c a t e s   t h e   l e f t   c o l u m n   ( o r   “ b ”   f o r   t h e 
-                         r i g h t   c o l u m n ) ,   “ B r i g h a m   Y o u n g ”   i s   t h e   s p e a k e r   n a m e ,   a n d   t h e   d i s c o u r s e 
-                         t i t l e   a p p e a r s   i n   s m a l l e r   t e x t   o n   t h e   s e c o n d   l i n e . < / p > 
- 
-                         < p > < b > 3 .   T e a c h i n g s   o f   t h e   P r o p h e t   J o s e p h   S m i t h : < / b > < / p > 
-                         < d i v   c l a s s = " l i s t " > 
-                                 < u l   c l a s s = " r e f e r e n c e s b l o c k " > 
-                                         < l i > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   c l a s s = " r e f c o u n t e r " > < d i v   c l a s s = " r e f e r e n c e   r e f e r e n c e w a t c h   r e f e r e n c e l i s t e n "   s t y l e = " w i d t h :   3 0 2 p x ; " > T P J S   1 6 3 ,   J o s e p h   S m i t h < / d i v > < d i v   c l a s s = " t a l k t i t l e   t a l k t i t l e w a t c h   t a l k t i t l e l i s t e n "   s t y l e = " w i d t h :   3 0 2 p x ; " > < / d i v > < / a > 
-                                         < / l i > 
-                                 < / u l > 
-                         < / d i v > 
-                         < p > “ 1 6 3 ”   i s   t h e   p a g e   n u m b e r   i n   < i > T e a c h i n g s   o f   t h e   P r o p h e t   J o s e p h   S m i t h < / i > . < / p > 
- 
-                         < p > I n   g e n e r a l   c o n f e r e n c e   t a l k s ,   < i > J o u r n a l   o f   D i s c o u r s e s < / i > ,   a n d   < i > T e a c h i n g s   o f   t h e   P r o p h e t   J o s e p h   S m i t h < / i > , 
-                         s y n c h r o n i z a t i o n   a r r o w s   ( < i m g   s r c = " / s t a t i c / h o m e p a g e / m e d i a / i m a g e s / s y n c _ 1 7 @ 2 x . p n g "   h e i g h t = " 1 7 "   w i d t h = " 2 2 " > ) 
-                         a p p e a r   t o   t h e   l e f t   o f   e a c h   s c r i p t u r a l   r e f e r e n c e .     C l i c k i n g   o n   t h e s e   a r r o w s 
-                         w i l l   s y n c h r o n i z e   t h e   c i t a t i o n   i n d e x   t o   d i s p l a y   a l l   o t h e r   o c c u r r e n c e s 
-                         o f   t h a t   s c r i p t u r e . < / p > 
- 
-                         < p > I n   < i > J o u r n a l   o f   D i s c o u r s e s < / i >   t a l k s ,   p a g e s   a n d   c o l u m n s   a r e   s e p a r a t e d 
-                         b y   y e l l o w   ( l e f t   c o l u m n ,   < u > a < / u > )   o r   b l u e   ( r i g h t   c o l u m n ,   < u > b < / u > )   m a r k e r s . 
-                         W i t h i n   e a c h   m a r k e r   a r e   t w o   i c o n s .     T h e   l e f t   i c o n   ( < i m g   s r c = " / s t a t i c / h o m e p a g e / m e d i a / i m a g e s / p d f _ 1 7 . p n g "   h e i g h t = " 1 7 "   w i d t h = " 1 4 " > ) 
-                         b r i n g s   u p   a   P D F   c o p y   o f   t h e   p r i n t e d   p a g e ;   t h e   r i g h t   i c o n   ( < i m g   s r c = " / s t a t i c / h o m e p a g e / m e d i a / i m a g e s / h b l l _ 1 7 . p n g "   h e i g h t = " 1 7 "   w i d t h = " 1 4 " > ) 
-                         b r i n g s   u p   t h e   B Y U   L i b r a r y   d i g i t a l   s c a n   o f   t h e   o r i g i n a l . < / p > 
- 
-                         < a   n a m e = " s e a r c h "   i d = " s e a r c h T a r g e t " > < / a > < h 2   c l a s s = " s e c t " > H o w   t o   S e a r c h < / h 2 > 
-                         T h i s   w e b   s i t e   u s e s   t h e   o p e n - s o u r c e   L u c e n e   s e a r c h   e n g i n e ,   s o   q u e r i e s   u s e   t h e   L u c e n e 
-                         s y n t a x ,   w h i c h   i s   a   l o t   l i k e   G o o g l e ' s .     H e r e   a r e   f e w   s a m p l e   q u e r i e s   y o u   m i g h t   t r y : < p > < / p > 
-                         < t a b l e > 
-                         < t b o d y > < t r > < t h > S e a r c h   T e r m s < / t h > < t h > F i n d s   D o c u m e n t s   … < / t h > < / t r > 
-                         < t r > < t d > a n g e l s   s t a n d   s e n t i n e l s < / t d > < t d > F i n d s   d o c u m e n t s   c o n t a i n i n g   a n y   c o m b i n a t i o n   o f   t h e s e   w o r d s . < / t d > < / t r > 
-                         < t r > < t d > + a n g e l s   + s t a n d   + s e n t i n e l s < / t d > < t d > F i n d s   d o c u m e n t s   c o n t a i n i n g   a l l   t h r e e   w o r d s . < / t d > < / t r > 
-                         < t r > < t d > - a n g e l s   + s e n t i n e l s < / t d > < t d > F i n d s   d o c u m e n t s   c o n t a i n i n g   “ s e n t i n e l s ”   b u t   n o t   “ a n g e l s ” . < / t d > < / t r > 
-                         < t r > < t d > “ a n g e l s   s e n t i n e l s ” ~ 1 0 < / t d > < t d > F i n d s   d o c u m e n t s   w h e r e   “ s e n t i n e l s ”   i s   s e p a r a t e d   f r o m   “ a n g e l s ”   b y   a t   m o s t   1 0   w o r d s . < / t d > < / t r > 
-                         < t r > < t d > “ a n g e l s   w h o   s t a n d ” < / t d > < t d > F i n d s   d o c u m e n t s   c o n t a i n i n g   t h e   e x a c t   p h r a s e   “ a n g e l s   w h o   s t a n d ” . < / t d > < / t r > 
-                         < t r > < t d > + U c h t d o r f   + h o p e < / t d > < t d > F i n d s   a l l   t a l k s   f r o m   P r e s i d e n t   U c h t d o r f   i n c l u d i n g   t h e   w o r d 
-                         “ h o p e ” .   N o t e   t h a t   t h i s   a c t u a l l y   f i n d s   a l l   d o c u m e n t s   t h a t   i n c l u d e 
-                         t h e   w o r d s   “ U c h t d o r f ”   a n d   “ h o p e ” ,   b u t   m o s t   o f t e n 
-                         d o c u m e n t s   c o n t a i n i n g   t h e   w o r d   “ U c h t d o r f ”   a r e   h i s   t a l k s . < / t d > < / t r > 
-                         < t r > < t d > a n g e l * s < / t d > < t d > F i n d s   d o c u m e n t s   c o n t a i n i n g   a n y   w o r d   s t a r t i n g   w i t h   “ a n g e l ”   a n d   e n d i n g   w i t h   “ s ” 
-                         ( e . g . ,   “ a n g e l s ” ,   “ A n g e l e s ” ) .   T h e   < b > * < / b >   w i l d c a r d   m a t c h e s   a n y 
-                         c o m b i n a t i o n   o f   0   o r   m o r e   l e t t e r s . < / t d > < / t r > 
-                         < t r > < t d > s ? n d < / t d > < t d > F i n d s   d o c u m e n t s   c o n t a i n i n g   a n y   4 - l e t t e r   w o r d   s t a r t i n g   w i t h   “ s ”   a n d   e n d i n g   w i t h 
-                         “ n d ”   ( e . g . ,   “ s a n d ” ,   “ s e n d ” ) .   T h e   < b > ? < / b >   w i l d c a r d   m a t c h e s   e x a c t l y 
-                         o n e   l e t t e r . < / t d > < / t r > 
-                         < / t b o d y > < / t a b l e > 
-                         < p > S e a r c h e s   a r e   c a s e   i n s e n s i t i v e .   T h e   < b > * < / b >   w i l d c a r d   m a y   n o t   a p p e a r   a s   t h e   f i r s t   l e t t e r   o f   a   s e a r c h 
-                         t e r m ,   a n d   b o t h   < b > * < / b >   a n d   < b > ? < / b >   w i l d c a r d s   m a y   n o t   b e   u s e d   i n   p h r a s e   a n d   p r o x i m i t y   s e a r c h e s . 
-                         F o r   e x a m p l e ,   t h e   q u e r i e s   “ a n g e l * s   s t a n d ” ~ 5 
-                         a n d   “ s ? n d   h e r e ”   b o t h   w i l l   p r o d u c e   n o   r e s u l t s . < / p > 
- 
-                         < p > O u r   s e a r c h   f a c i l i t y   l e t s   y o u   s e a r c h   e i t h e r   t h e   t a l k s   ( i n c l u d i n g   < i > T e a c h i n g s   o f   t h e   P r o p h e t   J o s e p h   S m i t h < / i > , 
-                         < i > J o u r n a l   o f   D i s c o u r s e s < / i > ,   a n d   t a l k s   f r o m   G e n e r a l   C o n f e r e n c e   s i n c e   1 9 4 2 )   o r   t h e   s c r i p t u r e s .     W h e n   s e a r c h i n g 
-                         t a l k s ,   b y   d e f a u l t   w e   s o r t   t h e   r e s u l t s   a c c o r d i n g   t o   r e l e v a n c e ,   m e a n i n g   t h a t   t a l k s   t h a t   u s e   t h e   s e a r c h   t e r m s 
-                         m o s t   a p p e a r   e a r l i e r   i n   t h e   r e s u l t s   l i s t .     Y o u   c a n   c h a n g e   t h i s   t o   s o r t   b y   d a t e   b y   u n c h e c k i n g   t h e   b o x   n e x t 
-                         t o   " S o r t   b y   R e l e v a n c e " ,   a n d   t h e   r e s u l t s   l i s t   w i l l   b e   s o r t e d   b y   d a t e   ( m o s t   r e c e n t   t a l k   f i r s t ) .     Y o u   c a n 
-                         a l s o   l i m i t   t h e   s e a r c h   t o   a   s p e c i f i c   s p e a k e r   a n d / o r   t o   a   r a n g e   o f   y e a r s ,   a n d   y o u   c a n   c h o o s e   w h i c h   s e t s   o f 
-                         t a l k s   t o   s e a r c h   ( i . e .   G e n e r a l   C o n f e r e n c e ,   < i > J o u r n a l   o f   D i s c o u r s e s < / i > ,   o r   < i > T e a c h i n g s < / i > ) . < / p > 
- 
-                         < p > W h e n   s e a r c h i n g   s c r i p t u r e s ,   t h e   d e f a u l t   o r d e r   f o r   t h e   r e s u l t s   l i s t   i s   b y   o r d e r   w i t h i n   t h e   s t a n d a r d   w o r k s 
-                         ( < i > O l d   T e s t a m e n t < / i > ,   < i > N e w   T e s t a m e n t < / i > ,   < i > B o o k   o f   M o r m o n < / i > ,   < i > D o c t r i n e   a n d   C o v e n a n t s < / i > ,   a n d 
-                         < i > P e a r l   o f   G r e a t   P r i c e < / i > ) .     I f   y o u   c h e c k   t h e   b o x   n e x t   t o   " S o r t   b y   R e l e v a n c e " ,   t h e   r e s u l t s   l i s t   w i l l   b e 
-                         p r e s e n t e d   i n   o r d e r   o f   r e l e v a n c e ,   m e a n i n g   v e r s e s   t h a t   h a v e   s e a r c h   t e r m s   a s   a   h i g h e r   p e r c e n t a g e   o f   t h e   v e r s e 
-                         w i l l   a p p e a r   e a r l i e r   i n   t h e   r e s u l t s .     Y o u   c a n   a l s o   c h o o s e   w h i c h   s p e c i f i c   v o l u m e s   t o   s e a r c h .     S e l e c t i n g   " J o s e p h 
-                         S m i t h   T r a n s l a t i o n "   t e l l s   t h e   s y s t e m   t o   s e a r c h   f o r   J S T   v e r s e s   t h a t   a r e   f o o t n o t e d   i n   t h e   e d i t i o n   o f   t h e 
-                         B i b l e   p u b l i s h e d   b y   T h e   C h u r c h   o f   J e s u s   C h r i s t   o f   L a t t e r - d a y   S a i n t s . 
-                         H o w e v e r ,   i f   y o u   d e s e l e c t   O l d   T e s t a m e n t   a n d   N e w   T e s t a m e n t   b u t   s e l e c t   " J o s e p h   S m i t h   T r a n s l a t i o n " ,   t h e n 
-                         t h e   s y s t e m   w i l l   s e a r c h   a l l   v e r s e s   o f   t h e   J S T ,   n o t   j u s t   t h e   f o o t n o t e d   v e r s e s . < / p > 
- 
-                         < a   n a m e = " h i s t o r y "   i d = " h i s t o r y T a r g e t " > < / a > < h 2   c l a s s = " s e c t " > H i s t o r y < / h 2 > 
-                         < p > T h e   S c r i p t u r e   C i t a t i o n   i n d e x   w a s   f i r s t   c r e a t e d   i n   p a p e r   f o r m   b y   R i c h a r d   G a l b r a i t h 
-                         w h i l e   s e r v i n g   a s   a   f a c u l t y   m e m b e r   a t   B Y U   ( n o w   e m e r i t u s ) .     T h e   i n d e x   w a s   m a d e   i n t o   a   w e b   s i t e 
-                         a n d   c o r r e s p o n d i n g   m o b i l e   a p p s   b y   S t e p h e n   L i d d l e ,   a l s o   a   B Y U   f a c u l t y   m e m b e r .     W e ' v e   h a d   h e l p 
-                         f r o m   m a n y   g r e a t   B Y U   s t u d e n t s   t h r o u g h   t h e   y e a r s   w o r k i n g   o n   v a r i o u s   a s p e c t s   o f   t h i s   p r o j e c t . 
-                         W e   a p p r e c i a t e   t h e   h e l p   o f   o u r   r e s e a r c h   a s s i s t a n t s , 
-                         p a r t i c u l a r l y   B r a d   H u m p h e r y ,   J e r e m y   K n u d s e n ,   A l l a n   B o n d ,   W i l l   J e n s e n ,   J a m e s   A n d e r s o n , 
-                         D a n   K i n g ,   T h o m a s   P a c k e r ,   R o s i e   L i d d l e   S a d l e r ,   a n d   J a m e s   D e l o r e y ,   w h o   h a v e   b e e n   i n s t r u m e n t a l   i n   b u i l d i n g   t h e   
-                         d a t a b a s e   a n d   p r o g r a m m i n g   e l e m e n t s   o f   t h i s   s i t e . & n b s p ;   B r a n d o n   P e t e r s e n   i s   t h e   g r a p h i c s   d e s i g n e r 
-                         w h o   c r e a t e d   t h e   a r t   w o r k   s h o w n   a t   t h e   t o p   o f   t h i s   p a n e l .     W e   a l s o   g r a t e f u l l y   
-                         a c k n o w l e d g e   f u n d i n g   p r o v i d e d   b y   t h e 
-                         < a   h r e f = " h t t p s : / / m a r r i o t t s c h o o l . b y u . e d u / c e t " > R o l l i n s   C e n t e r   a t   B Y U < / a > . < / p > 
- 
-                         < p > S c r i p t u r e   C i t a t i o n   I n d e x ,   C o p y r i g h t   ©   2 0 1 0 - 2 0 1 9 ,   R i c h a r d   C .   G a l b r a i t h   a n d 
-                         S t e p h e n   W .   L i d d l e .     A l l   r i g h t s   r e s e r v e d . < / p > 
- 
-                         < p > P l e a s e   n o t e   t h a t   t h i s   i s   n o t   a n   o f f i c i a l   p u b l i c a t i o n   o f   T h e   C h u r c h   o f   J e s u s   C h r i s t 
-                         o f   L a t t e r - d a y   S a i n t s . & n b s p ;   A l t h o u g h   w e   l i n k   e x t e n s i v e l y   t o 
-                         < a   h r e f = " h t t p s : / / w w w . l d s . o r g / " > w w w . l d s . o r g < / a >   t o 
-                         d i s p l a y   t h e   t e x t   o f   s c r i p t u r e s   a n d   c o n f e r e n c e   t a l k s , 
-                         t h i s   w e b   s i t e   i s   o u r   o w n   p e r s o n a l   c r e a t i o n   a n d   d o e s   n o t   r e p r e s e n t   a n y 
-                         o f f i c i a l   v i e w s   o f   T h e   C h u r c h   o f   J e s u s   C h r i s t   o f   L a t t e r - d a y   S a i n t s . < / p > 
-                         < p > W e   a l s o   l i n k   t o   t h e   f i r s t   e d i t i o n   < a   h r e f = " h t t p s : / / c o n t e n t d m . l i b . b y u . e d u / c d m 4 / b r o w s e . p h p ? C I S O R O O T = % 2 F J o u r n a l O f D i s c o u r s e s 3 " > < i > J o u r n a l 
-                                         o f   D i s c o u r s e s < / i > < / a > 
-                         f r o m   t h e   H a r o l d   B .   L e e   L i b r a r y ,   B r i g h a m   Y o u n g   U n i v e r s i t y .     T h e   l i b r a r y 
-                         p r o v i d e s   f u r t h e r   a c c e s s   t o   o t h e r   i m p o r t a n t   s c a n n e d   t e x t s   a n d   m a n u s c r i p t s 
-                         a t   t h e   < a   h r e f = " h t t p s : / / w w w . l i b . b y u . e d u / o n l i n e . h t m l " > L e e   L i b r a r y   d i g i t a l 
-                         c o l l e c t i o n s < / a > . 
-                         < / p > 
- 
-                         < a   n a m e = " o t h e r "   i d = " o t h e r T a r g e t " > < / a > < h 2   c l a s s = " s e c t " > O t h e r   N o t e s < / h 2 > 
-                         < p > < b > E n s i g n   I s s u e s   c o n t a i n i n g   G e n e r a l   C o n f e r e n c e 
-                                             ( 1 9 7 1 - p r e s e n t ) : < / b > < / p > 
-                                 < t a b l e   c e l l s p a c i n g = " 2 "   c e l l p a d d i n g = " 4 "   a l i g n = " c e n t e r "   b o r d e r = " 1 " > 
-                                     < t b o d y > < t r > < t h   a l i g n = " l e f t " > & n b s p ; G e n e r a l   C o n f e r e n c e < / t h > 
-                                             < t h   a l i g n = " l e f t " > & n b s p ; E n s i g n   I s s u e < / t h > < / t r > 
-                                     < t r > < t d > & n b s p ; A p r i l   C o n f e r e n c e ,   1 9 7 1 : < / t d > < t d > & n b s p ; J u n e   1 9 7 1 < / t d > < / t r > 
-                                     < t r > < t d > & n b s p ; O c t o b e r   C o n f e r e n c e ,   1 9 7 1 : < / t d > < t d > & n b s p ; D e c e m b e r   1 9 7 1 < / t d > < / t r > 
-                                     < t r > < t d > & n b s p ; A p r i l   C o n f e r e n c e ,   1 9 7 2 : < / t d > < t d > & n b s p ; J u l y   1 9 7 2 < / t d > < / t r > 
-                                     < t r > < t d > & n b s p ; O c t o b e r   C o n f e r e n c e ,   1 9 7 2 : < / t d > < t d > & n b s p ; J a n u a r y   1 9 7 3 < / t d > < / t r > 
-                                     < t r > < t d > & n b s p ; A p r i l   C o n f e r e n c e ,   1 9 7 3 : < / t d > < t d > & n b s p ; J u l y   1 9 7 3 < / t d > < / t r > 
-                                     < t r > < t d > & n b s p ; O c t o b e r   C o n f e r e n c e ,   1 9 7 3 : < / t d > < t d > & n b s p ; J a n u a r y   1 9 7 4 < / t d > < / t r > 
-                                     < t r > < t d > & n b s p ; A p r i l   C o n f e r e n c e   ( 1 9 7 4 - p r e s e n t ) : < / t d > 
-                                             < t d > & n b s p ; M a y   1 9 7 4 - p r e s e n t < / t d > < / t r > 
-                                     < t r > < t d > & n b s p ; O c t o b e r   C o n f e r e n c e   ( 1 9 7 4 - p r e s e n t ) : & n b s p ; < / t d > 
-                                             < t d > & n b s p ; N o v e m b e r   1 9 7 4 - p r e s e n t < / t d > < / t r > 
-                                 < / t b o d y > < / t a b l e > 
-                                 < p > < b > I m p r o v e m e n t   E r a   I s s u e s   c o n t a i n i n g   G e n e r a l   C o n f e r e n c e 
-                                             ( 1 9 4 2 - 1 9 7 0 ) : < / b > < / p > 
-                                 < t a b l e   c e l l s p a c i n g = " 2 "   c e l l p a d d i n g = " 2 "   a l i g n = " c e n t e r "   b o r d e r = " 1 " > 
-                                     < t b o d y > < t r > < t h   a l i g n = " l e f t " > & n b s p ; G e n e r a l   C o n f e r e n c e < / t h > 
-                                             < t h   a l i g n = " l e f t " > & n b s p ; I m p r o v e m e n t   E r a   I s s u e & n b s p ; < / t h > < / t r > 
-                                     < t r > < t d > & n b s p ; A p r i l   C o n f e r e n c e   ( 1 9 4 2 - 1 9 5 0 ) : < / t d > < t d > & n b s p ; M a y   1 9 4 2 - 1 9 5 0 < / t d > < / t r > 
-                                     < t r > < t d > & n b s p ; O c t o b e r   C o n f e r e n c e   ( 1 9 4 2 - 1 9 4 9 ) : < / t d > 
-                                             < t d > & n b s p ; N o v e m b e r   1 9 4 2 - 1 9 4 9 < / t d > < / t r > 
-                                     < t r > < t d > & n b s p ; A p r i l   C o n f e r e n c e   ( 1 9 5 1 - 1 9 7 0 ) : & n b s p ; < / t d > < t d > & n b s p ; J u n e   1 9 5 1 - 1 9 7 0 < / t d > < / t r > 
-                                     < t r > < t d > & n b s p ; O c t o b e r   C o n f e r e n c e   ( 1 9 5 0 - 1 9 7 0 ) : < / t d > 
-                                             < t d > & n b s p ; D e c e m b e r   1 9 5 0 - 1 9 7 0 < / t d > < / t r > 
-                                 < / t b o d y > < / t a b l e > 
-                                 < p > < b > N o t e : < / b > & n b s p ;   T h e   p r o c e e d i n g s   o f   t h e   A p r i l   1 9 4 3   c o n f e r e n c e 
-                                 w e r e   p u b l i s h e d   i n   t h e   M a y ,   J u n e ,   a n d   J u l y   i s s u e s   o f   t h e   1 9 4 3   I m p r o v e m e n t 
-                                 E r a   d u e   t o   a   w a r t i m e   p a p e r   s h o r t a g e . & n b s p ;   T h e   O c t o b e r   1 9 5 7   c o n f e r e n c e   w a s 
-                                 c a n c e l e d   d u e   t o   a n   e p i d e m i c   o f   A s i a n   f l u   i n   t h e   U n i t e d   S t a t e s . & n b s p ;   E l d e r 
-                                 H a r o l d   B .   L e e ' s   p r i e s t h o o d   a d d r e s s   a t   t h e   O c t o b e r   1 9 6 7   c o n f e r e n c e   w a s 
-                                 p u b l i s h e d   i n   t h e   J a n u a r y   1 9 6 8   i s s u e   o f   t h e   I m p r o v e m e n t   E r a ,   p a g e s   2 6 - 3 1 . 
-                                 A l s o ,   i n   o u r   i n d e x ,   p a g e   n u m b e r s   f o r   c o n f e r e n c e   a d d r e s s e s   b e t w e e n   1 9 4 2   a n d   1 9 7 0 
-                                 r e f e r e n c e   t h e   C o n f e r e n c e   R e p o r t s   d u e   t o   t h e   s c a r c i t y   o f   I m p r o v e m e n t   E r a   m a g a z i n e s . 
-                                 < / p > 
-                                 < b r > 
-                         < / d i v > 
-                 < / d i v > 
-                 < d i v   c l a s s = " n a n o - p a n e "   s t y l e = " d i s p l a y :   b l o c k ; " > < d i v   c l a s s = " n a n o - s l i d e r "   s t y l e = " h e i g h t :   8 0 p x ;   t r a n s f o r m :   t r a n s l a t e ( 0 p x ,   0 p x ) ; " > < / d i v > < / d i v > < / d i v > 
-                 < / d i v > 
-         < / d i v > 
- 
-     
- < / d i v > 
-                         < d i v   i d = " c e n t e r c o l u m n 2 "   s t y l e = " o p a c i t y :   0 ;   z - i n d e x :   1 0 ; " >   
-                         < / d i v > 
-                 
-                         < d i v   i d = " c i t a t i o n i n d e x 2 "   c l a s s = " s i d e c o l u m n "   s t y l e = " o p a c i t y :   1 ;   z - i n d e x :   2 ; " > 
- 
-     < d i v   c l a s s = " s c i w r a p p e r " > 
-         < d i v   i d = " s c i c r u m b "   c l a s s = " c i t a t i o n _ c r u m b "   s t y l e = " o p a c i t y :   1 ; " > 
-                 < u l   c l a s s = " c r u m b " > 
-                                         < l i   c l a s s = " l a s t c r u m b " > 
-                                                 < s p a n   c l a s s = " l a r g e c r u m b " > C i t a t i o n & n b s p ; I n d e x < / s p a n > 
-                                                 < s p a n   c l a s s = " s m a l l c r u m b   h i d d e n c r u m b " > C i t a t i o n s < / s p a n > 
-                                 < / l i > 
-                 < / u l > 
-             < d i v   c l a s s = " t a b B a r " > 
-                 < u l   c l a s s = " t a b s " > 
-                     < l i   c l a s s = " t a b   c i t a b   s e l e c t e d t a b " > 
-                         < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ) ; " > < s p a n   c l a s s = " t a b l a b e l " > C i t a t i o n   I n d e x < / s p a n > < / a > 
-                     < / l i > < l i   c l a s s = " t a b   c o n t t a b " > 
-                         < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t C o n t e n t s ( ) ; " > < s p a n   c l a s s = " t a b l a b e l " > L i b r a r y < / s p a n > < / a > 
-                     < / l i > < l i   c l a s s = " t a b   s p e a k t a b " > 
-                         < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S p e a k e r ( ) ; " > < s p a n   c l a s s = " t a b l a b e l " > S p e a k e r s < / s p a n > < / a > 
-                     < / l i > < l i   c l a s s = " t a b   s e a r c h t a b " > 
-                         < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S e a r c h ( ) ; " > < s p a n   c l a s s = " t a b l a b e l " > S e a r c h < / s p a n > < / a > 
-                     < / l i > 
-                 < / u l > 
-             < / d i v > 
-         < / d i v > 
-         
-         < d i v   c l a s s = " s c i c o n t e n t   n a n o   h a s - s c r o l l b a r " > < d i v   c l a s s = " n a n o - c o n t e n t "   t a b i n d e x = " 0 "   s t y l e = " r i g h t :   - 2 3 p x ; " > < ! - - 
-                 
-                         - - > < d i v   c l a s s = " v o l u m e t i t l e " > 
-                         O l d   T e s t a m e n t   < s p a n   c l a s s = " v o l _ c i t a t i o n " > [ 2 0 3 9 0 ] < / s p a n > 
-                         < / d i v > 
-                         < u l   c l a s s = " v o l u m e c o n t e n t s " > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 0 1 ' ) " > < d i v   c l a s s = " b o o k " > G e n e s i s < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 9 7 3 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 0 2 ' ) " > < d i v   c l a s s = " b o o k " > E x o d u s < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 1 7 8 6 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 0 3 ' ) " > < d i v   c l a s s = " b o o k " > L e v . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 0 3 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 0 4 ' ) " > < d i v   c l a s s = " b o o k " > N u m . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 4 2 0 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 0 5 ' ) " > < d i v   c l a s s = " b o o k " > D e u t . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 7 3 8 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 0 6 ' ) " > < d i v   c l a s s = " b o o k " > J o s h u a < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 6 9 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 0 7 ' ) " > < d i v   c l a s s = " b o o k " > J u d g e s < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 8 4 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 0 8 ' ) " > < d i v   c l a s s = " b o o k " > R u t h < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 8 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 0 9 ' ) " > < d i v   c l a s s = " b o o k " > 1   S a m . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 4 7 7 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 1 0 ' ) " > < d i v   c l a s s = " b o o k " > 2   S a m . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 1 6 2 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 1 1 ' ) " > < d i v   c l a s s = " b o o k " > 1   K i n g s < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 4 1 4 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 1 2 ' ) " > < d i v   c l a s s = " b o o k " > 2   K i n g s < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 5 4 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 1 3 ' ) " > < d i v   c l a s s = " b o o k " > 1   C h r o n . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 9 2 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 1 4 ' ) " > < d i v   c l a s s = " b o o k " > 2   C h r o n . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 1 2 4 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 1 5 ' ) " > < d i v   c l a s s = " b o o k " > E z r a < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 3 6 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 1 6 ' ) " > < d i v   c l a s s = " b o o k " > N e h . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 6 8 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 1 7 ' ) " > < d i v   c l a s s = " b o o k " > E s t h e r < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 4 2 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 1 8 ' ) " > < d i v   c l a s s = " b o o k " > J o b < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 6 6 2 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 1 9 ' ) " > < d i v   c l a s s = " b o o k " > P s a l m s < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 0 3 6 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 2 0 ' ) " > < d i v   c l a s s = " b o o k " > P r o v . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 6 9 5 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 2 1 ' ) " > < d i v   c l a s s = " b o o k " > E c c l . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 0 5 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 2 2 ' ) " > < d i v   c l a s s = " b o o k " > S o n g . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 1 3 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 2 3 ' ) " > < d i v   c l a s s = " b o o k " > I s a i a h < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 4 2 2 6 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 2 4 ' ) " > < d i v   c l a s s = " b o o k " > J e r . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 8 7 2 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 2 5 ' ) " > < d i v   c l a s s = " b o o k " > L a m . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 0 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 2 6 ' ) " > < d i v   c l a s s = " b o o k " > E z e k i e l < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 4 6 7 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 2 7 ' ) " > < d i v   c l a s s = " b o o k " > D a n i e l < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 1 3 2 3 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 2 8 ' ) " > < d i v   c l a s s = " b o o k " > H o s e a < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 7 4 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 2 9 ' ) " > < d i v   c l a s s = " b o o k " > J o e l < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 1 6 3 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 3 0 ' ) " > < d i v   c l a s s = " b o o k " > A m o s < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 0 1 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 3 1 ' ) " > < d i v   c l a s s = " b o o k " > O b a d i a h < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 1 4 6 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 3 2 ' ) " > < d i v   c l a s s = " b o o k " > J o n a h < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 5 7 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 3 3 ' ) " > < d i v   c l a s s = " b o o k " > M i c a h < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 1 2 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 3 4 ' ) " > < d i v   c l a s s = " b o o k " > N a h u m < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 8 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 3 5 ' ) " > < d i v   c l a s s = " b o o k " > H a b . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 1 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 3 6 ' ) " > < d i v   c l a s s = " b o o k " > Z e p h . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 3 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 3 7 ' ) " > < d i v   c l a s s = " b o o k " > H a g g a i < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 1 2 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 3 8 ' ) " > < d i v   c l a s s = " b o o k " > Z e c h . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 0 4 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 3 9 ' ) " > < d i v   c l a s s = " b o o k " > M a l a c h i < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 5 8 0 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
- 	 	       - - > < / u l > < ! - - 
-                         
-                         - - > < d i v   c l a s s = " v o l u m e t i t l e " > 
-                         N e w   T e s t a m e n t   < s p a n   c l a s s = " v o l _ c i t a t i o n " > [ 4 2 6 8 1 ] < / s p a n > 
-                         < / d i v > 
-                         < u l   c l a s s = " v o l u m e c o n t e n t s " > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 4 0 ' ) " > < d i v   c l a s s = " b o o k " > M a t t . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 9 8 8 3 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 4 1 ' ) " > < d i v   c l a s s = " b o o k " > M a r k < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 1 4 2 5 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 4 2 ' ) " > < d i v   c l a s s = " b o o k " > L u k e < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 4 1 6 0 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 4 3 ' ) " > < d i v   c l a s s = " b o o k " > J o h n < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 6 8 3 6 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 4 4 ' ) " > < d i v   c l a s s = " b o o k " > A c t s < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 8 2 6 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 4 5 ' ) " > < d i v   c l a s s = " b o o k " > R o m a n s < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 1 5 1 1 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 4 6 ' ) " > < d i v   c l a s s = " b o o k " > 1   C o r . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 6 0 0 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 4 7 ' ) " > < d i v   c l a s s = " b o o k " > 2   C o r . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 6 6 6 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 4 8 ' ) " > < d i v   c l a s s = " b o o k " > G a l . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 7 3 1 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 4 9 ' ) " > < d i v   c l a s s = " b o o k " > E p h . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 1 4 6 2 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 5 0 ' ) " > < d i v   c l a s s = " b o o k " > P h i l i p . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 3 6 1 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 5 1 ' ) " > < d i v   c l a s s = " b o o k " > C o l . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 5 0 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 5 2 ' ) " > < d i v   c l a s s = " b o o k " > 1   T h e s . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 1 8 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 5 3 ' ) " > < d i v   c l a s s = " b o o k " > 2   T h e s . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 1 4 3 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 5 4 ' ) " > < d i v   c l a s s = " b o o k " > 1   T i m . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 4 6 8 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 5 5 ' ) " > < d i v   c l a s s = " b o o k " > 2   T i m . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 6 8 2 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 5 6 ' ) " > < d i v   c l a s s = " b o o k " > T i t u s < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 1 0 4 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 5 7 ' ) " > < d i v   c l a s s = " b o o k " > P h i l e m . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 6 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 5 8 ' ) " > < d i v   c l a s s = " b o o k " > H e b . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 1 9 6 0 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 5 9 ' ) " > < d i v   c l a s s = " b o o k " > J a m e s < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 9 4 2 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 6 0 ' ) " > < d i v   c l a s s = " b o o k " > 1   P e t e r < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 9 3 2 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 6 1 ' ) " > < d i v   c l a s s = " b o o k " > 2   P e t e r < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 6 5 0 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 6 2 ' ) " > < d i v   c l a s s = " b o o k " > 1   J o h n < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 6 2 8 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 6 3 ' ) " > < d i v   c l a s s = " b o o k " > 2   J o h n < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 8 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 6 4 ' ) " > < d i v   c l a s s = " b o o k " > 3   J o h n < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 4 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 6 5 ' ) " > < d i v   c l a s s = " b o o k " > J u d e < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 1 3 9 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 1 6 6 ' ) " > < d i v   c l a s s = " b o o k " > R e v . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 3 0 4 6 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
- 	 	       - - > < / u l > < ! - - 
-                         
-                         - - > < d i v   c l a s s = " v o l u m e t i t l e " > 
-                         B o o k   o f   M o r m o n   < s p a n   c l a s s = " v o l _ c i t a t i o n " > [ 1 9 1 5 0 ] < / s p a n > 
-                         < / d i v > 
-                         < u l   c l a s s = " v o l u m e c o n t e n t s " > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 2 0 1 ' ,   ' 0 ' ) " > < d i v   c l a s s = " b o o k " > T i t l e < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 6 5 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 2 0 2 ' ,   ' 0 ' ) " > < d i v   c l a s s = " b o o k " > I n t r o . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 0 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 2 0 3 ' ,   ' 0 ' ) " > < d i v   c l a s s = " b o o k " > 3   W i t . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 6 8 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 2 0 4 ' ,   ' 0 ' ) " > < d i v   c l a s s = " b o o k " > 8   W i t . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 3 5 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 2 0 5 ' ) " > < d i v   c l a s s = " b o o k " > 1   N e p h i < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 1 8 4 8 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 2 0 6 ' ) " > < d i v   c l a s s = " b o o k " > 2   N e p h i < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 3 0 9 5 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 2 0 7 ' ) " > < d i v   c l a s s = " b o o k " > J a c o b < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 5 9 3 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 2 0 8 ' ) " > < d i v   c l a s s = " b o o k " > E n o s < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 1 5 9 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 2 0 9 ' ) " > < d i v   c l a s s = " b o o k " > J a r o m < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 3 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 2 1 0 ' ) " > < d i v   c l a s s = " b o o k " > O m n i < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 6 2 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 2 1 1 ' ) " > < d i v   c l a s s = " b o o k " > W   o f   M < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 4 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 2 1 2 ' ) " > < d i v   c l a s s = " b o o k " > M o s i a h < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 2 3 9 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 2 1 3 ' ) " > < d i v   c l a s s = " b o o k " > A l m a < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 4 3 9 9 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 2 1 4 ' ) " > < d i v   c l a s s = " b o o k " > H e l . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 6 7 7 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 2 1 5 ' ) " > < d i v   c l a s s = " b o o k " > 3   N e p h i < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 8 7 5 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 2 1 6 ' ) " > < d i v   c l a s s = " b o o k " > 4   N e p h i < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 2 1 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 2 1 7 ' ) " > < d i v   c l a s s = " b o o k " > M o r m . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 5 4 2 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 2 1 8 ' ) " > < d i v   c l a s s = " b o o k " > E t h e r < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 8 5 4 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 2 1 9 ' ) " > < d i v   c l a s s = " b o o k " > M o r o n i < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 1 3 5 1 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
- 	 	       - - > < / u l > < ! - - 
-                         
-                         - - > < d i v   c l a s s = " v o l u m e t i t l e " > 
-                         D o c t r i n e   a n d   C o v e n a n t s   < s p a n   c l a s s = " v o l _ c i t a t i o n " > [ 2 7 5 3 1 ] < / s p a n > 
-                         < / d i v > 
-                         < u l   c l a s s = " v o l u m e c o n t e n t s " > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 3 0 1 ' ,   ' 0 ' ) " > < d i v   c l a s s = " b o o k " > I n t r o . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 3 0 2 ' ) " > < d i v   c l a s s = " b o o k " > S e c t i o n s < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 2 7 5 1 5 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 3 0 3 ' ) " > < d i v   c l a s s = " b o o k " > O . D . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 1 4 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
- 	 	       - - > < / u l > < ! - - 
-                         
-                         - - > < d i v   c l a s s = " v o l u m e t i t l e " > 
-                         P e a r l   o f   G r e a t   P r i c e   < s p a n   c l a s s = " v o l _ c i t a t i o n " > [ 6 3 2 1 ] < / s p a n > 
-                         < / d i v > 
-                         < u l   c l a s s = " v o l u m e c o n t e n t s " > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 4 0 1 ' ) " > < d i v   c l a s s = " b o o k " > M o s e s < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 3 0 4 6 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 4 0 2 ' ) " > < d i v   c l a s s = " b o o k " > A b r . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 8 2 3 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 4 0 3 ' ) " > < d i v   c l a s s = " b o o k " > F a c . < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 3 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 4 0 4 ' ) " > < d i v   c l a s s = " b o o k " > J S — M < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 1 2 5 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 4 0 5 ' ) " > < d i v   c l a s s = " b o o k " > J S — H < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 1 3 9 1 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
-                         - - > < l i   c l a s s = " g r i d " > < ! - - 
-                                                         - - > < a   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " g e t S c i ( ' 4 0 6 ' ) " > < d i v   c l a s s = " b o o k " > A   o f   F < / d i v > < d i v   c l a s s = " c i t a t i o n c o u n t " > [ 9 3 3 ] < / d i v > < / a > < ! - - 
-                                 - - > < / l i > < ! - - 
- 	 	       - - > < / u l > < ! - - 
-                         
-         - - > < / d i v > < d i v   c l a s s = " n a n o - p a n e " > < d i v   c l a s s = " n a n o - s l i d e r "   s t y l e = " h e i g h t :   1 3 8 p x ;   t r a n s f o r m :   t r a n s l a t e ( 0 p x ,   0 p x ) ; " > < / d i v > < / d i v > < / d i v > 
- 
-     < / d i v > 
-     < d i v   i d = " b l o c k C o n t e n t R i g h t " > 
-         < b u t t o n   t y p e = " b u t t o n "   c l a s s = " t o g g l e V i s i b i l i t y R i g h t   b l o c k C o n t e n t B u t t o n "   t i t l e = " T o g g l e   r i g h t   p a n e l " > < / b u t t o n > 
-     < / d i v > 
-     < b u t t o n   t y p e = " b u t t o n "   c l a s s = " t o g g l e V i s i b i l i t y R i g h t   s i d e n a v   s i d e n a v R i g h t "   t i t l e = " T o g g l e   r i g h t   p a n e l " > < / b u t t o n > < ! - - 
-     - - > < a   c l a s s = " r e s o u r c e s   o p e n _ f i l t e r _ b t n "   t i t l e = " F i l t e r "   h r e f = " j a v a s c r i p t : v o i d ( 0 ) ; "   o n c l i c k = " o p e n F i l t e r ( ) ; "   d a t a - t a r g e t = " # f i l t e r _ d i a l o g "   d a t a - t o g g l e = " m o d a l " > < / a > < ! - - 
-         - - > 
-     
- < / d i v > 
-                         < d i v   i d = " c i t a t i o n i n d e x "   c l a s s = " s i d e c o l u m n "   s t y l e = " r i g h t :   5 0 0 0 p x ;   o v e r f l o w - y :   a u t o ;   z - i n d e x :   1 ;   o p a c i t y :   1 ; " > L o a d i n g . . . < / d i v > 
-                         < d i v   i d = " f i l t e r _ d i a l o g "   c l a s s = " m o d a l " > 
-                         < / d i v > 
-                 < / d i v > 
-         < / d i v > 
-         < d i v   i d = " p r i n t _ d i v " > < / d i v > 
- 
-         < s c r i p t   t y p e = " t e x t / j a v a s c r i p t " > 
-                 v a r   _ g a q   =   _ g a q   | |   [ ] ; 
-                 _ g a q . p u s h ( [ ' _ s e t A c c o u n t ' ,   ' U A - 1 4 2 8 5 0 0 - 1 ' ] ) ; 
-                 _ g a q . p u s h ( [ ' _ t r a c k P a g e v i e w ' ] ) ; 
-                 ( f u n c t i o n ( )   { 
-                         v a r   g a   =   d o c u m e n t . c r e a t e E l e m e n t ( ' s c r i p t ' ) ;   g a . t y p e   =   ' t e x t / j a v a s c r i p t ' ;   g a . a s y n c   =   t r u e ; 
-                         g a . s r c   =   ( ' h t t p s : '   = =   d o c u m e n t . l o c a t i o n . p r o t o c o l   ?   ' h t t p s : / / s s l '   :   ' h t t p : / / w w w ' )   +   ' . g o o g l e - a n a l y t i c s . c o m / g a . j s ' ; 
-                         v a r   s   =   d o c u m e n t . g e t E l e m e n t s B y T a g N a m e ( ' s c r i p t ' ) [ 0 ] ;   s . p a r e n t N o d e . i n s e r t B e f o r e ( g a ,   s ) ; 
-                 } ) ( ) ; 
-         < / s c r i p t > 
- 
- 
- 
- < / b o d y > < / h t m l >
+<html><head>
+    <meta charset="UTF-8">
+    <title>Scripture Citation Index</title>
+    
+    <!-------------- CSS -------------->
+    <link rel="stylesheet" media="screen" href="/static/homepage/styles/citation.css">
+    <link rel="stylesheet" href="/static/homepage/styles/stpjs.css">
+    <link rel="stylesheet" href="/static/homepage/styles/jod.css">
+    <link rel="stylesheet" href="/static/homepage/styles/gcera.css">
+    <link rel="stylesheet" href="/static/homepage/styles/gcen.css">
+    <link rel="stylesheet" media="screen" href="/static/homepage/styles/about.css">
+    <link rel="stylesheet" media="print" href="/static/homepage/styles/citation_print.css">
+    <link rel="stylesheet" media="screen" href="/static/homepage/styles/bootstrap.css">
+    <link rel="stylesheet" media="screen" href="/static/homepage/styles/nanoscroller.css">
+    <link rel="stylesheet" media="screen" href="/static/homepage/styles/bootstrap-responsive.css">
+    <link rel="stylesheet" href="/static/homepage/styles/mapscrip.css">
+        
+    
+    <!-------------- Javascript -------------->    
+    <script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script src="/static/homepage/scripts/jquery-1.11.2.min.js"></script>    
+    <script src="/static/homepage/scripts/jquery.nanoscroller.min.js"></script>    
+    <script src="/static/homepage/scripts/bootstrap.js"></script>
+    <script src="/static/homepage/scripts/cookie.js"></script>
+
+    <script src="/django_mako_plus/dmp-common.min.js"></script>
+    <script>DMP_CONTEXT.set("5.5.3", "u5cb24d647888509a4c8e1131006919", {"__router__":{"template":"homepage/index","app":"homepage","page":"index"},"utc_epoch":1555189092.620541}, ["homepage/base", "homepage/index"]);</script><link data-context="u5cb24d647888509a4c8e1131006919" rel="stylesheet" type="text/css" href="/static/homepage/styles/base.css?v=5c82aba400000000"><script data-context="u5cb24d647888509a4c8e1131006919" src="/static/homepage/scripts/base.js?v=5c82aba383f1d8cb"></script><script data-context="u5cb24d647888509a4c8e1131006919" src="/static/homepage/scripts/index.js?v=5c82aba37f4532bb"></script>
+
+    <!-- <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="/static/homepage/scripts/extensions-0.2.1.pack.js"></script>
+    <script src="https://www.google.com/uds/?file=earth&amp;v=1" type="text/javascript"></script>
+    <script src="https://www.google.com/uds/api/earth/1.0/db22e5693e0a8de1f62f3536f5a8d7d3/default.I.js" type="text/javascript"></script> -->
+    
+<script type="text/javascript">
+function scrollTo(name) {
+    var targetElement = document.getElementById(name);
+    targetElement.scrollIntoView();
+}
+</script>
+</head>
+
+<body>
+    <div id="body_content">
+        <div class="mainpagecontent">
+            <div id="scriptures2" class="sidecolumn" style="overflow-y: hidden; top: 0px; opacity: 1; z-index: 2;">
+
+  <div class="scripturewrapper">
+    <div id="scripcrumb" style="opacity: 1;">
+        <ul class="crumb">
+                    <li class="lastcrumb">
+                        <span class="largecrumb">The&nbsp;Scriptures</span>
+                        <span class="smallcrumb hiddencrumb">Scriptures</span>
+                </li>
+                    <li class="lastcrumb">
+                        <span class="largecrumb"></span>
+                        <span class="smallcrumb hiddencrumb"></span>
+                </li>
+        </ul>
+    </div>
+    
+    <div class="scripturecontent nano has-scrollbar">
+        <div class="nano-content" tabindex="0" style="right: -23px;">
+        
+            <div class="volumetitle">
+            Old Testament
+            </div>
+            <ul class="volumecontents"><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=101&amp;chapter=&amp;verses=&amp;jst=')">Genesis</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=102&amp;chapter=&amp;verses=&amp;jst=')">Exodus</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=103&amp;chapter=&amp;verses=&amp;jst=')">Leviticus</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=104&amp;chapter=&amp;verses=&amp;jst=')">Numbers</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=105&amp;chapter=&amp;verses=&amp;jst=')">Deut.</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=106&amp;chapter=&amp;verses=&amp;jst=')">Joshua</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=107&amp;chapter=&amp;verses=&amp;jst=')">Judges</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=108&amp;chapter=&amp;verses=&amp;jst=')">Ruth</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=109&amp;chapter=&amp;verses=&amp;jst=')">1 Samuel</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=110&amp;chapter=&amp;verses=&amp;jst=')">2 Samuel</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=111&amp;chapter=&amp;verses=&amp;jst=')">1 Kings</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=112&amp;chapter=&amp;verses=&amp;jst=')">2 Kings</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=113&amp;chapter=&amp;verses=&amp;jst=')">1 Chronicles</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=114&amp;chapter=&amp;verses=&amp;jst=')">2 Chronicles</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=115&amp;chapter=&amp;verses=&amp;jst=')">Ezra</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=116&amp;chapter=&amp;verses=&amp;jst=')">Nehemiah</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=117&amp;chapter=&amp;verses=&amp;jst=')">Esther</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=118&amp;chapter=&amp;verses=&amp;jst=')">Job</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=119&amp;chapter=&amp;verses=&amp;jst=')">Psalms</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=120&amp;chapter=&amp;verses=&amp;jst=')">Proverbs</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=121&amp;chapter=&amp;verses=&amp;jst=')">Ecclesiastes</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=122&amp;chapter=&amp;verses=&amp;jst=')">Song of Sol.</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=123&amp;chapter=&amp;verses=&amp;jst=')">Isaiah</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=124&amp;chapter=&amp;verses=&amp;jst=')">Jeremiah</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=125&amp;chapter=&amp;verses=&amp;jst=')">Lamentations</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=126&amp;chapter=&amp;verses=&amp;jst=')">Ezekiel</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=127&amp;chapter=&amp;verses=&amp;jst=')">Daniel</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=128&amp;chapter=&amp;verses=&amp;jst=')">Hosea</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=129&amp;chapter=&amp;verses=&amp;jst=')">Joel</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=130&amp;chapter=&amp;verses=&amp;jst=')">Amos</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=131&amp;chapter=&amp;verses=&amp;jst=')">Obadiah</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=132&amp;chapter=&amp;verses=&amp;jst=')">Jonah</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=133&amp;chapter=&amp;verses=&amp;jst=')">Micah</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=134&amp;chapter=&amp;verses=&amp;jst=')">Nahum</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=135&amp;chapter=&amp;verses=&amp;jst=')">Habakkuk</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=136&amp;chapter=&amp;verses=&amp;jst=')">Zephaniah</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=137&amp;chapter=&amp;verses=&amp;jst=')">Haggai</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=138&amp;chapter=&amp;verses=&amp;jst=')">Zechariah</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=139&amp;chapter=&amp;verses=&amp;jst=')">Malachi</a>
+                </li><!--
+        --></ul>
+            
+            <div class="volumetitle">
+            New Testament
+            </div>
+            <ul class="volumecontents"><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=140&amp;chapter=&amp;verses=&amp;jst=')">Matthew</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=141&amp;chapter=&amp;verses=&amp;jst=')">Mark</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=142&amp;chapter=&amp;verses=&amp;jst=')">Luke</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=143&amp;chapter=&amp;verses=&amp;jst=')">John</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=144&amp;chapter=&amp;verses=&amp;jst=')">Acts</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=145&amp;chapter=&amp;verses=&amp;jst=')">Romans</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=146&amp;chapter=&amp;verses=&amp;jst=')">1 Corinthians</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=147&amp;chapter=&amp;verses=&amp;jst=')">2 Corinthians</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=148&amp;chapter=&amp;verses=&amp;jst=')">Galatians</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=149&amp;chapter=&amp;verses=&amp;jst=')">Ephesians</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=150&amp;chapter=&amp;verses=&amp;jst=')">Philippians</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=151&amp;chapter=&amp;verses=&amp;jst=')">Colossians</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=152&amp;chapter=&amp;verses=&amp;jst=')">1 Thessalonians</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=153&amp;chapter=&amp;verses=&amp;jst=')">2 Thessalonians</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=154&amp;chapter=&amp;verses=&amp;jst=')">1 Timothy</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=155&amp;chapter=&amp;verses=&amp;jst=')">2 Timothy</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=156&amp;chapter=&amp;verses=&amp;jst=')">Titus</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=157&amp;chapter=&amp;verses=&amp;jst=')">Philemon</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=158&amp;chapter=&amp;verses=&amp;jst=')">Hebrews</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=159&amp;chapter=&amp;verses=&amp;jst=')">James</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=160&amp;chapter=&amp;verses=&amp;jst=')">1 Peter</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=161&amp;chapter=&amp;verses=&amp;jst=')">2 Peter</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=162&amp;chapter=&amp;verses=&amp;jst=')">1 John</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=163&amp;chapter=&amp;verses=&amp;jst=')">2 John</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=164&amp;chapter=&amp;verses=&amp;jst=')">3 John</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=165&amp;chapter=&amp;verses=&amp;jst=')">Jude</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=166&amp;chapter=&amp;verses=&amp;jst=')">Revelation</a>
+                </li><!--
+        --></ul>
+            
+            <div class="volumetitle">
+            Book of Mormon
+            </div>
+            <ul class="volumecontents"><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=201&amp;chapter=0&amp;verses=&amp;jst=')">Title Page</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=202&amp;chapter=0&amp;verses=&amp;jst=')">Introduction</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=203&amp;chapter=0&amp;verses=&amp;jst=')">Three Witnesses</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=204&amp;chapter=0&amp;verses=&amp;jst=')">Eight Witnesses</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=205&amp;chapter=&amp;verses=&amp;jst=')">1 Nephi</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=206&amp;chapter=&amp;verses=&amp;jst=')">2 Nephi</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=207&amp;chapter=&amp;verses=&amp;jst=')">Jacob</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=208&amp;chapter=&amp;verses=&amp;jst=')">Enos</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=209&amp;chapter=&amp;verses=&amp;jst=')">Jarom</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=210&amp;chapter=&amp;verses=&amp;jst=')">Omni</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=211&amp;chapter=&amp;verses=&amp;jst=')">Words of Morm.</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=212&amp;chapter=&amp;verses=&amp;jst=')">Mosiah</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=213&amp;chapter=&amp;verses=&amp;jst=')">Alma</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=214&amp;chapter=&amp;verses=&amp;jst=')">Helaman</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=215&amp;chapter=&amp;verses=&amp;jst=')">3 Nephi</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=216&amp;chapter=&amp;verses=&amp;jst=')">4 Nephi</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=217&amp;chapter=&amp;verses=&amp;jst=')">Mormon</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=218&amp;chapter=&amp;verses=&amp;jst=')">Ether</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=219&amp;chapter=&amp;verses=&amp;jst=')">Moroni</a>
+                </li><!--
+        --></ul>
+            
+            <div class="volumetitle">
+            Doctrine and Covenants
+            </div>
+            <ul class="volumecontents"><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=301&amp;chapter=0&amp;verses=&amp;jst=')">Introduction</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=302&amp;chapter=&amp;verses=&amp;jst=')">Sections</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=303&amp;chapter=&amp;verses=&amp;jst=')">Official Decl.</a>
+                </li><!--
+        --></ul>
+            
+            <div class="volumetitle">
+            Pearl of Great Price
+            </div>
+            <ul class="volumecontents"><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=401&amp;chapter=&amp;verses=&amp;jst=')">Moses</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=402&amp;chapter=&amp;verses=&amp;jst=')">Abraham</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=403&amp;chapter=&amp;verses=&amp;jst=')">Facsimiles</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=404&amp;chapter=&amp;verses=&amp;jst=')">JS—Matthew</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=405&amp;chapter=&amp;verses=&amp;jst=')">JS—History</a>
+                </li><!--
+            --><li>
+                        <a href="javascript:void(0);" onclick="getScripture('?book=406&amp;chapter=&amp;verses=&amp;jst=')">Articles of Faith</a>
+                </li><!--
+        --></ul>
+            
+    </div> 
+    <div class="nano-pane"><div class="nano-slider" style="height: 131px; transform: translate(0px, 0px);"></div></div></div> 
+
+  </div>
+  <div id="blockContentLeft">
+      <button type="button" class="toggleVisibilityLeft blockContentButton" title="Toggle left panel"></button>
+  </div>
+  <button type="button" class="toggleVisibilityLeft sidenav sidenavLeft" title="Toggle left panel"></button>
+  
+  
+</div> 
+            <div id="scriptures" class="sidecolumn" style="left: 0px; z-index: 1; opacity: 1; right: 5000px;">Loading...</div>
+        
+            <div id="centercolumn" style="opacity: 1; z-index: 12;">
+
+<div id="centernavbar">
+    <div id="aboutlabel" class="visiblelabel">About</div>
+    <div>
+        <a class="menu dropdown-toggle" data-toggle="dropdown" href="#"></a>
+        <ul class="nav dropdown-menu drop3" role="menu" aria-labelledby="drop2">
+            <li><a href="javascript:void(0);" onclick="getTalk();">
+                About</a></li>
+        </ul>
+    </div>
+</div>
+<div id="centercontent">
+    <div id="talkcontent">
+        <div class="nano has-scrollbar">
+        <div id="talkwrapper" class="aboutwrapper nano-content" tabindex="0" style="right: -23px;">
+            <div id="aboutcontent">
+            <a name="top"></a><div id="banner"><img id="bannerImg" src="/static//homepage/media/images/Banner-703-wood.jpg"></div>
+            <div id="btitle"><img id="bannerTitleImg" src="/static//homepage/media/images/CitationIndexTitle.png"></div>
+            <h2 class="about">Version 3.5.0</h2>
+            <h3>By Stephen W. Liddle and Richard C. Galbraith</h3>
+            <!--
+            <center><p align="center"><a href="javascript:void(0)" class="button" onclick="scrollTo('overviewTarget')">Overview</a>
+                <a href="javascript:void(0)" class="button" onclick="scrollTo('searchTarget')">Search</a>
+                <a href="javascript:void(0)" class="button" onclick="scrollTo('historyTarget')">History</a></p></center>
+            -->
+
+            <br>
+            <p class="new"><b>Nuevo:</b> Ahora disponible en español: véase <a href="https://escrituras.byu.edu">https://escrituras.byu.edu</a>.</p>
+            <a name="overview" id="overviewTarget"></a><h2 class="sect">Overview</h2>
+            <p>Welcome to the Scripture Citation Index.  This index, found on the right side of your browser window,
+            links from scriptures to the general conference talks, <i>Journal of Discourses</i> speeches, and
+            writings in <i>Teachings of the Prophet Joseph Smith</i> that cite those
+            scriptures.&nbsp; So, for example, suppose you want to know who has cited
+            1&nbsp;Ne.&nbsp;3:7 in general conference; tap on the First Nephi button
+            followed by the 1&nbsp;Ne.&nbsp;3 button; there you'll find the answer.&nbsp;
+            Who has quoted Matt.&nbsp;5:48?&nbsp; Use the New Testament index to find out.</p>
+
+            <p>The panel on the left side of your browser lets you read the scriptures, including
+            the King James Version and Joseph Smith Translation of the Bible, the Book of Mormon,
+            Doctrine and Covenants, and the Pearl of Great Price.  This is not the official
+            version of the standard works.  Go to <a href="https://www.lds.org/scriptures">www.LDS.org/scriptures</a>
+            for the official publication of The Church of Jesus Christ of Latter-day Saints.
+            Among the differences between this version and the Church's official
+            version are that we do not include their footnotes, chapter summaries, and study helps
+            such as the Bible Dictionary and Topical Guide.</p>
+
+            <p>We have indexed the scriptures cited by speakers in General Conference
+            between 1942 and the present, and those cited by speakers recorded in the
+            <i>Journal of Discourses</i> between 1839 and 1886.&nbsp; The citations in
+            <i>Teachings of the Prophet Joseph Smith</i> come from the special edition,
+            <i>Scriptural Teachings of the Prophet Joseph Smith</i>, edited by Richard C.
+            Galbraith and published by Deseret Book in 1993 (ISBN 0875796478).</p>
+
+            <p>To begin, click on one of the books and chapters in the index and you'll see
+            a list of references for verses in that chapter.&nbsp; A reference looks like
+            this: <b>2 Pet. 1:4</b>.  When you select the <b>2 Pet. 1:4</b> item, you will see
+            a list of citations for 2 Peter chapter 1 verse 4.  Citations occur in three forms.
+
+            </p><p><b>1. General Conference:</b></p>
+            <div class="list">
+                <ul class="referencesblock"><li><a href="javascript:void(0);" class="refcounter"><div class="reference referencewatch referencelisten" style="width: 302px;">2006–A:114, James E. Faust</div><div class="talktitle talktitlewatch talktitlelisten" style="width: 302px;">Your Light—a Standard to All Nations</div></a><a href="javascript:void(0);" title="Watch talk at lds.org" class="watchlink"><div class="watchtalk">Watch</div></a><a href="javascript:void(0);" title="Listen to talk at lds.org" class="listenlink"><div class="listentalk">Listen</div></a></li></ul>
+            </div>
+            <p>“2006” is the year of the conference, “A” means April (or “O” for October),
+            “114” is the page number in the <i>Ensign</i> (1971–present) or <i>Conference Reports</i> (1942–1970).
+            “James E. Faust” is the speaker name, and the talk title appears in smaller
+            text on the second line.  The icons labeled Watch and Listen take you to LDS.org for a video or audio
+            presentation of the talk.  Audio and video are available for more recent conference talks, but not for
+            older talks.</p>
+
+            <p><b>2. Journal of Discourses:</b></p>
+            <div class="list">
+                <ul class="referencesblock">
+                    <li><a href="javascript:void(0);" class="refcounter"><div class="reference referencewatch referencelisten" style="width: 302px;">JD 10:194a, Brigham Young</div><div class="talktitle talktitlewatch talktitlelisten" style="width: 302px;">Knowledge, Correctly Applied, Etc.</div></a>
+                    </li>
+                </ul>
+            </div>
+            <p>“10” means volume 10 of the <i>Journal of Discourses</i>, “194”
+            is the page number, “a” indicates the left column (or “b” for the
+            right column), “Brigham Young” is the speaker name, and the discourse
+            title appears in smaller text on the second line.</p>
+
+            <p><b>3. Teachings of the Prophet Joseph Smith:</b></p>
+            <div class="list">
+                <ul class="referencesblock">
+                    <li><a href="javascript:void(0);" class="refcounter"><div class="reference referencewatch referencelisten" style="width: 302px;">TPJS 163, Joseph Smith</div><div class="talktitle talktitlewatch talktitlelisten" style="width: 302px;"></div></a>
+                    </li>
+                </ul>
+            </div>
+            <p>“163” is the page number in <i>Teachings of the Prophet Joseph Smith</i>.</p>
+
+            <p>In general conference talks, <i>Journal of Discourses</i>, and <i>Teachings of the Prophet Joseph Smith</i>,
+            synchronization arrows (<img src="/static/homepage/media/images/sync_17@2x.png" height="17" width="22">)
+            appear to the left of each scriptural reference.  Clicking on these arrows
+            will synchronize the citation index to display all other occurrences
+            of that scripture.</p>
+
+            <p>In <i>Journal of Discourses</i> talks, pages and columns are separated
+            by yellow (left column, <u>a</u>) or blue (right column, <u>b</u>) markers.
+            Within each marker are two icons.  The left icon (<img src="/static/homepage/media/images/pdf_17.png" height="17" width="14">)
+            brings up a PDF copy of the printed page; the right icon (<img src="/static/homepage/media/images/hbll_17.png" height="17" width="14">)
+            brings up the BYU Library digital scan of the original.</p>
+
+            <a name="search" id="searchTarget"></a><h2 class="sect">How to Search</h2>
+            This web site uses the open-source Lucene search engine, so queries use the Lucene
+            syntax, which is a lot like Google's.  Here are few sample queries you might try:<p></p>
+            <table>
+            <tbody><tr><th>Search Terms</th><th>Finds Documents …</th></tr>
+            <tr><td>angels stand sentinels</td><td>Finds documents containing any combination of these words.</td></tr>
+            <tr><td>+angels +stand +sentinels</td><td>Finds documents containing all three words.</td></tr>
+            <tr><td>-angels +sentinels</td><td>Finds documents containing “sentinels” but not “angels”.</td></tr>
+            <tr><td>“angels sentinels”~10</td><td>Finds documents where “sentinels” is separated from “angels” by at most 10 words.</td></tr>
+            <tr><td>“angels who stand”</td><td>Finds documents containing the exact phrase “angels who stand”.</td></tr>
+            <tr><td>+Uchtdorf +hope</td><td>Finds all talks from President Uchtdorf including the word
+            “hope”. Note that this actually finds all documents that include
+            the words “Uchtdorf” and “hope”, but most often
+            documents containing the word “Uchtdorf” are his talks.</td></tr>
+            <tr><td>angel*s</td><td>Finds documents containing any word starting with “angel” and ending with “s”
+            (e.g., “angels”, “Angeles”). The <b>*</b> wildcard matches any
+            combination of 0 or more letters.</td></tr>
+            <tr><td>s?nd</td><td>Finds documents containing any 4-letter word starting with “s” and ending with
+            “nd” (e.g., “sand”, “send”). The <b>?</b> wildcard matches exactly
+            one letter.</td></tr>
+            </tbody></table>
+            <p>Searches are case insensitive. The <b>*</b> wildcard may not appear as the first letter of a search
+            term, and both <b>*</b> and <b>?</b> wildcards may not be used in phrase and proximity searches.
+            For example, the queries “angel*s stand”~5
+            and “s?nd here” both will produce no results.</p>
+
+            <p>Our search facility lets you search either the talks (including <i>Teachings of the Prophet Joseph Smith</i>,
+            <i>Journal of Discourses</i>, and talks from General Conference since 1942) or the scriptures.  When searching
+            talks, by default we sort the results according to relevance, meaning that talks that use the search terms
+            most appear earlier in the results list.  You can change this to sort by date by unchecking the box next
+            to "Sort by Relevance", and the results list will be sorted by date (most recent talk first).  You can
+            also limit the search to a specific speaker and/or to a range of years, and you can choose which sets of
+            talks to search (i.e. General Conference, <i>Journal of Discourses</i>, or <i>Teachings</i>).</p>
+
+            <p>When searching scriptures, the default order for the results list is by order within the standard works
+            (<i>Old Testament</i>, <i>New Testament</i>, <i>Book of Mormon</i>, <i>Doctrine and Covenants</i>, and
+            <i>Pearl of Great Price</i>).  If you check the box next to "Sort by Relevance", the results list will be
+            presented in order of relevance, meaning verses that have search terms as a higher percentage of the verse
+            will appear earlier in the results.  You can also choose which specific volumes to search.  Selecting "Joseph
+            Smith Translation" tells the system to search for JST verses that are footnoted in the edition of the
+            Bible published by The Church of Jesus Christ of Latter-day Saints.
+            However, if you deselect Old Testament and New Testament but select "Joseph Smith Translation", then
+            the system will search all verses of the JST, not just the footnoted verses.</p>
+
+            <a name="history" id="historyTarget"></a><h2 class="sect">History</h2>
+            <p>The Scripture Citation index was first created in paper form by Richard Galbraith
+            while serving as a faculty member at BYU (now emeritus).  The index was made into a web site
+            and corresponding mobile apps by Stephen Liddle, also a BYU faculty member.  We've had help
+            from many great BYU students through the years working on various aspects of this project.
+            We appreciate the help of our research assistants,
+            particularly Brad Humphery, Jeremy Knudsen, Allan Bond, Will Jensen, James Anderson,
+            Dan King, Thomas Packer, Rosie Liddle Sadler, and James Delorey, who have been instrumental in building the 
+            database and programming elements of this site.&nbsp; Brandon Petersen is the graphics designer
+            who created the art work shown at the top of this panel.  We also gratefully 
+            acknowledge funding provided by the
+            <a href="https://marriottschool.byu.edu/cet">Rollins Center at BYU</a>.</p>
+
+            <p>Scripture Citation Index, Copyright © 2010-2019, Richard C. Galbraith and
+            Stephen W. Liddle.  All rights reserved.</p>
+
+            <p>Please note that this is not an official publication of The Church of Jesus Christ
+            of Latter-day Saints.&nbsp; Although we link extensively to
+            <a href="https://www.lds.org/">www.lds.org</a> to
+            display the text of scriptures and conference talks,
+            this web site is our own personal creation and does not represent any
+            official views of The Church of Jesus Christ of Latter-day Saints.</p>
+            <p>We also link to the first edition <a href="https://contentdm.lib.byu.edu/cdm4/browse.php?CISOROOT=%2FJournalOfDiscourses3"><i>Journal
+                    of Discourses</i></a>
+            from the Harold B. Lee Library, Brigham Young University.  The library
+            provides further access to other important scanned texts and manuscripts
+            at the <a href="https://www.lib.byu.edu/online.html">Lee Library digital
+            collections</a>.
+            </p>
+
+            <a name="other" id="otherTarget"></a><h2 class="sect">Other Notes</h2>
+            <p><b>Ensign Issues containing General Conference
+                      (1971-present):</b></p>
+                <table cellspacing="2" cellpadding="4" align="center" border="1">
+                  <tbody><tr><th align="left">&nbsp;General Conference</th>
+                      <th align="left">&nbsp;Ensign Issue</th></tr>
+                  <tr><td>&nbsp;April Conference, 1971:</td><td>&nbsp;June 1971</td></tr>
+                  <tr><td>&nbsp;October Conference, 1971:</td><td>&nbsp;December 1971</td></tr>
+                  <tr><td>&nbsp;April Conference, 1972:</td><td>&nbsp;July 1972</td></tr>
+                  <tr><td>&nbsp;October Conference, 1972:</td><td>&nbsp;January 1973</td></tr>
+                  <tr><td>&nbsp;April Conference, 1973:</td><td>&nbsp;July 1973</td></tr>
+                  <tr><td>&nbsp;October Conference, 1973:</td><td>&nbsp;January 1974</td></tr>
+                  <tr><td>&nbsp;April Conference (1974-present):</td>
+                      <td>&nbsp;May 1974-present</td></tr>
+                  <tr><td>&nbsp;October Conference (1974-present):&nbsp;</td>
+                      <td>&nbsp;November 1974-present</td></tr>
+                </tbody></table>
+                <p><b>Improvement Era Issues containing General Conference
+                      (1942-1970):</b></p>
+                <table cellspacing="2" cellpadding="2" align="center" border="1">
+                  <tbody><tr><th align="left">&nbsp;General Conference</th>
+                      <th align="left">&nbsp;Improvement Era Issue&nbsp;</th></tr>
+                  <tr><td>&nbsp;April Conference (1942-1950):</td><td>&nbsp;May 1942-1950</td></tr>
+                  <tr><td>&nbsp;October Conference (1942-1949):</td>
+                      <td>&nbsp;November 1942-1949</td></tr>
+                  <tr><td>&nbsp;April Conference (1951-1970):&nbsp;</td><td>&nbsp;June 1951-1970</td></tr>
+                  <tr><td>&nbsp;October Conference (1950-1970):</td>
+                      <td>&nbsp;December 1950-1970</td></tr>
+                </tbody></table>
+                <p><b>Note:</b>&nbsp; The proceedings of the April 1943 conference
+                were published in the May, June, and July issues of the 1943 Improvement
+                Era due to a wartime paper shortage.&nbsp; The October 1957 conference was
+                canceled due to an epidemic of Asian flu in the United States.&nbsp; Elder
+                Harold B. Lee's priesthood address at the October 1967 conference was
+                published in the January 1968 issue of the Improvement Era, pages 26-31.
+                Also, in our index, page numbers for conference addresses between 1942 and 1970
+                reference the Conference Reports due to the scarcity of Improvement Era magazines.
+                </p>
+                <br>
+            </div>
+        </div>
+        <div class="nano-pane" style="display: block;"><div class="nano-slider" style="height: 80px; transform: translate(0px, 0px);"></div></div></div>
+        </div>
+    </div>
+
+  
+</div>
+            <div id="centercolumn2" style="opacity: 0; z-index: 10;"> 
+            </div>
+        
+            <div id="citationindex2" class="sidecolumn" style="opacity: 1; z-index: 2;">
+
+  <div class="sciwrapper">
+    <div id="scicrumb" class="citation_crumb" style="opacity: 1;">
+        <ul class="crumb">
+                    <li class="lastcrumb">
+                        <span class="largecrumb">Citation&nbsp;Index</span>
+                        <span class="smallcrumb hiddencrumb">Citations</span>
+                </li>
+        </ul>
+      <div class="tabBar">
+        <ul class="tabs">
+          <li class="tab citab selectedtab">
+            <a href="javascript:void(0);" onclick="getSci();"><span class="tablabel">Citation Index</span></a>
+          </li><li class="tab conttab">
+            <a href="javascript:void(0);" onclick="getContents();"><span class="tablabel">Library</span></a>
+          </li><li class="tab speaktab">
+            <a href="javascript:void(0);" onclick="getSpeaker();"><span class="tablabel">Speakers</span></a>
+          </li><li class="tab searchtab">
+            <a href="javascript:void(0);" onclick="getSearch();"><span class="tablabel">Search</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="scicontent nano has-scrollbar"><div class="nano-content" tabindex="0" style="right: -23px;"><!--
+        
+            --><div class="volumetitle">
+            Old Testament <span class="vol_citation">[20390]</span>
+            </div>
+            <ul class="volumecontents"><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('101')"><div class="book">Genesis</div><div class="citationcount">[2973]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('102')"><div class="book">Exodus</div><div class="citationcount">[1786]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('103')"><div class="book">Lev.</div><div class="citationcount">[203]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('104')"><div class="book">Num.</div><div class="citationcount">[420]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('105')"><div class="book">Deut.</div><div class="citationcount">[738]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('106')"><div class="book">Joshua</div><div class="citationcount">[269]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('107')"><div class="book">Judges</div><div class="citationcount">[84]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('108')"><div class="book">Ruth</div><div class="citationcount">[28]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('109')"><div class="book">1 Sam.</div><div class="citationcount">[477]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('110')"><div class="book">2 Sam.</div><div class="citationcount">[162]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('111')"><div class="book">1 Kings</div><div class="citationcount">[414]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('112')"><div class="book">2 Kings</div><div class="citationcount">[254]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('113')"><div class="book">1 Chron.</div><div class="citationcount">[92]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('114')"><div class="book">2 Chron.</div><div class="citationcount">[124]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('115')"><div class="book">Ezra</div><div class="citationcount">[36]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('116')"><div class="book">Neh.</div><div class="citationcount">[68]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('117')"><div class="book">Esther</div><div class="citationcount">[42]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('118')"><div class="book">Job</div><div class="citationcount">[662]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('119')"><div class="book">Psalms</div><div class="citationcount">[2036]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('120')"><div class="book">Prov.</div><div class="citationcount">[695]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('121')"><div class="book">Eccl.</div><div class="citationcount">[205]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('122')"><div class="book">Song.</div><div class="citationcount">[13]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('123')"><div class="book">Isaiah</div><div class="citationcount">[4226]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('124')"><div class="book">Jer.</div><div class="citationcount">[872]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('125')"><div class="book">Lam.</div><div class="citationcount">[20]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('126')"><div class="book">Ezekiel</div><div class="citationcount">[467]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('127')"><div class="book">Daniel</div><div class="citationcount">[1323]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('128')"><div class="book">Hosea</div><div class="citationcount">[74]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('129')"><div class="book">Joel</div><div class="citationcount">[163]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('130')"><div class="book">Amos</div><div class="citationcount">[201]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('131')"><div class="book">Obadiah</div><div class="citationcount">[146]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('132')"><div class="book">Jonah</div><div class="citationcount">[57]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('133')"><div class="book">Micah</div><div class="citationcount">[212]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('134')"><div class="book">Nahum</div><div class="citationcount">[8]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('135')"><div class="book">Hab.</div><div class="citationcount">[21]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('136')"><div class="book">Zeph.</div><div class="citationcount">[23]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('137')"><div class="book">Haggai</div><div class="citationcount">[12]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('138')"><div class="book">Zech.</div><div class="citationcount">[204]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('139')"><div class="book">Malachi</div><div class="citationcount">[580]</div></a><!--
+                --></li><!--
+		   --></ul><!--
+            
+            --><div class="volumetitle">
+            New Testament <span class="vol_citation">[42681]</span>
+            </div>
+            <ul class="volumecontents"><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('140')"><div class="book">Matt.</div><div class="citationcount">[9883]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('141')"><div class="book">Mark</div><div class="citationcount">[1425]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('142')"><div class="book">Luke</div><div class="citationcount">[4160]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('143')"><div class="book">John</div><div class="citationcount">[6836]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('144')"><div class="book">Acts</div><div class="citationcount">[2826]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('145')"><div class="book">Romans</div><div class="citationcount">[1511]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('146')"><div class="book">1 Cor.</div><div class="citationcount">[2600]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('147')"><div class="book">2 Cor.</div><div class="citationcount">[666]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('148')"><div class="book">Gal.</div><div class="citationcount">[731]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('149')"><div class="book">Eph.</div><div class="citationcount">[1462]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('150')"><div class="book">Philip.</div><div class="citationcount">[361]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('151')"><div class="book">Col.</div><div class="citationcount">[250]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('152')"><div class="book">1 Thes.</div><div class="citationcount">[218]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('153')"><div class="book">2 Thes.</div><div class="citationcount">[143]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('154')"><div class="book">1 Tim.</div><div class="citationcount">[468]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('155')"><div class="book">2 Tim.</div><div class="citationcount">[682]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('156')"><div class="book">Titus</div><div class="citationcount">[104]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('157')"><div class="book">Philem.</div><div class="citationcount">[6]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('158')"><div class="book">Heb.</div><div class="citationcount">[1960]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('159')"><div class="book">James</div><div class="citationcount">[942]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('160')"><div class="book">1 Peter</div><div class="citationcount">[932]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('161')"><div class="book">2 Peter</div><div class="citationcount">[650]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('162')"><div class="book">1 John</div><div class="citationcount">[628]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('163')"><div class="book">2 John</div><div class="citationcount">[28]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('164')"><div class="book">3 John</div><div class="citationcount">[24]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('165')"><div class="book">Jude</div><div class="citationcount">[139]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('166')"><div class="book">Rev.</div><div class="citationcount">[3046]</div></a><!--
+                --></li><!--
+		   --></ul><!--
+            
+            --><div class="volumetitle">
+            Book of Mormon <span class="vol_citation">[19150]</span>
+            </div>
+            <ul class="volumecontents"><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('201', '0')"><div class="book">Title</div><div class="citationcount">[65]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('202', '0')"><div class="book">Intro.</div><div class="citationcount">[20]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('203', '0')"><div class="book">3 Wit.</div><div class="citationcount">[68]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('204', '0')"><div class="book">8 Wit.</div><div class="citationcount">[35]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('205')"><div class="book">1 Nephi</div><div class="citationcount">[1848]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('206')"><div class="book">2 Nephi</div><div class="citationcount">[3095]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('207')"><div class="book">Jacob</div><div class="citationcount">[593]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('208')"><div class="book">Enos</div><div class="citationcount">[159]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('209')"><div class="book">Jarom</div><div class="citationcount">[23]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('210')"><div class="book">Omni</div><div class="citationcount">[62]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('211')"><div class="book">W of M</div><div class="citationcount">[24]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('212')"><div class="book">Mosiah</div><div class="citationcount">[2239]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('213')"><div class="book">Alma</div><div class="citationcount">[4399]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('214')"><div class="book">Hel.</div><div class="citationcount">[677]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('215')"><div class="book">3 Nephi</div><div class="citationcount">[2875]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('216')"><div class="book">4 Nephi</div><div class="citationcount">[221]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('217')"><div class="book">Morm.</div><div class="citationcount">[542]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('218')"><div class="book">Ether</div><div class="citationcount">[854]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('219')"><div class="book">Moroni</div><div class="citationcount">[1351]</div></a><!--
+                --></li><!--
+		   --></ul><!--
+            
+            --><div class="volumetitle">
+            Doctrine and Covenants <span class="vol_citation">[27531]</span>
+            </div>
+            <ul class="volumecontents"><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('301', '0')"><div class="book">Intro.</div><div class="citationcount">[2]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('302')"><div class="book">Sections</div><div class="citationcount">[27515]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('303')"><div class="book">O.D.</div><div class="citationcount">[14]</div></a><!--
+                --></li><!--
+		   --></ul><!--
+            
+            --><div class="volumetitle">
+            Pearl of Great Price <span class="vol_citation">[6321]</span>
+            </div>
+            <ul class="volumecontents"><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('401')"><div class="book">Moses</div><div class="citationcount">[3046]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('402')"><div class="book">Abr.</div><div class="citationcount">[823]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('403')"><div class="book">Fac.</div><div class="citationcount">[3]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('404')"><div class="book">JS—M</div><div class="citationcount">[125]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('405')"><div class="book">JS—H</div><div class="citationcount">[1391]</div></a><!--
+                --></li><!--
+            --><li class="grid"><!--
+                            --><a href="javascript:void(0);" onclick="getSci('406')"><div class="book">A of F</div><div class="citationcount">[933]</div></a><!--
+                --></li><!--
+		   --></ul><!--
+            
+    --></div><div class="nano-pane"><div class="nano-slider" style="height: 138px; transform: translate(0px, 0px);"></div></div></div>
+
+  </div>
+  <div id="blockContentRight">
+    <button type="button" class="toggleVisibilityRight blockContentButton" title="Toggle right panel"></button>
+  </div>
+  <button type="button" class="toggleVisibilityRight sidenav sidenavRight" title="Toggle right panel"></button><!--
+  --><a class="resources open_filter_btn" title="Filter" href="javascript:void(0);" onclick="openFilter();" data-target="#filter_dialog" data-toggle="modal"></a><!--
+    -->
+  
+</div>
+            <div id="citationindex" class="sidecolumn" style="right: 5000px; overflow-y: auto; z-index: 1; opacity: 1;">Loading...</div>
+            <div id="filter_dialog" class="modal">
+            </div>
+        </div>
+    </div>
+    <div id="print_div"></div>
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-1428500-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+
+
+</body></html>
