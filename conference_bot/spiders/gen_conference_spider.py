@@ -46,7 +46,7 @@ class google(scrapy.Spider):
             
             response = scrapy.Selector(text=self.driver.page_source)
             print(len(response.xpath(session_xpath)))
-            conference_url = self.driver.url
+            conference_url = self.driver.current_url
             for j in range(0, len(response.xpath(session_xpath))):
                 print("IN 2")
                 talks_xpath = session_xpath + "[%s]/li" % (str(j+1))
