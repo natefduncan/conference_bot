@@ -44,23 +44,25 @@ class google(scrapy.Spider):
             
             session_xpath = "//ul[@class='talksblock']"
             
-            response2 = scrapy.Selector(text=self.driver.page_source)
+            response = scrapy.Selector(text=self.driver.page_source)
             
-            for j in range(0, len(response2.xpath(session_xpath))):
+            for j in range(0, len(response.xpath(session_xpath))):
                 print("IN 2")
                 talks_xpath = session_xpath + "[%s]/li" % (str(j+1))
                 
-                for k in range(0, len(response2.xpath(talks_xpath))):
+                for k in range(0, len(response.xpath(talks_xpath))):
+                    print(response.xpath(talks_xpath))
                     print("IN 3")
                     talk_xpath = talks_xpath + "[%s]/a" % (str(k+1))
+                    print(response.xpath(talk_xpath))
                     talk = self.driver.find_element_by_xpath(talk_xpath)
                     talk.click()
                     time.sleep(1)
                     
-                    response3 = scrapy.Selector(text=self.driver.page_source)
+                    response = scrapy.Selector(text=self.driver.page_source)
                 
                     text_xpath = "//div[@id='primary']/p/text()"
-                    print("".join(response3.xpath(text_xpath).extract()))
+                    print("".join(response.xpath(text_xpath).extract()))
             
             print("NEW URL")
             self.driver.get(url)
