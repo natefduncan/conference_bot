@@ -35,6 +35,9 @@ class google(scrapy.Spider):
         print("TRYING")
         
         for i in range(0, len(response.xpath(conference_xpath))):
+            self.driver.get(url)
+            time.sleep(3)
+            
             conference = self.driver.find_element_by_xpath(conference_xpath + "[%s]/a" % (str(i+1)))
             conference.click()
             time.sleep(1)
@@ -57,10 +60,6 @@ class google(scrapy.Spider):
                     text_xpath = "//div[@id='primary']/p/text()"
                     print("".join(response3.xpath(text_xpath).extract()))
                 
-            self.driver.get(url)
-            time.sleep(3)
-            
-        
         self.driver.close()
         #Get search box input. 
         #search_box = self.driver.find_element_by_id("searchboxinput")
