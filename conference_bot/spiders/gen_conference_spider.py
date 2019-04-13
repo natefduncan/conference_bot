@@ -28,7 +28,7 @@ class google(scrapy.Spider):
         response = scrapy.Selector(text=self.driver.page_source)
         
         with open("test.txt", "w+") as file: 
-            content = u' '.join(self.driver.page_source).encode('utf-8').strip()
+            content = u''.join(self.driver.page_source).encode('utf-8').strip()
             file.write(content)
         
         #Get search box input. 
