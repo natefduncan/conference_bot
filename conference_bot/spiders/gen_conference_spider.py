@@ -27,9 +27,10 @@ class google(scrapy.Spider):
         
         response = scrapy.Selector(text=self.driver.page_source)
         
-        with open("test.txt", "w+") as file: 
-            content = u''.join(self.driver.page_source).encode('utf-8').strip()
-            file.write(content)
+        conference_xpath = ("//ul[@class='conflist']/li")
+        
+        for i in response.xpath(conference_xpath):
+            print(i.xpath("a/text()").extract())
         
         #Get search box input. 
         #search_box = self.driver.find_element_by_id("searchboxinput")
