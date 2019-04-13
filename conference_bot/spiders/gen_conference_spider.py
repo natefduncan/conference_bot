@@ -34,10 +34,24 @@ class google(scrapy.Spider):
         conference_xpath = ("//ul[@class='conflist']/li")
         print("TRYING")
         
-        for i in response.xpath(conference_xpath):
-            print(i)
-            print(i.xpath("a/text()").extract())
+        for i in range(0, len(response.xpath(conference_xpath))):
+            conference = driver.find_element_by_xpath(conference_xpath + "/a[%s]" % (str(i))
+            conference.click()
+            time.sleep(1)
+            
+            talk_xpath = "//ul[@class='talksblock']/li"
+            
+            response2 = scrapy.Selector(text=self.driver.page_source)
+            response2.xpath(talk_xpath)
+            
+            for j in range(0, len(response2.xpath(talk_xpath))):
+                print(response2.xpath(talk_xpath).extract()[j])
+                
+            self.driver.get(url)
+            time.sleep(3)
+            
         
+        self.driver.close()
         #Get search box input. 
         #search_box = self.driver.find_element_by_id("searchboxinput")
         
