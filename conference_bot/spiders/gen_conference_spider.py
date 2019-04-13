@@ -44,7 +44,7 @@ class google(scrapy.Spider):
             
             session_xpath = ("/body/div[@id='body_content']/div[@class='mainpagecontent']/"
                             "div[@id='citationindex']/div[@class='sciwrapper']/"
-                            "div[@class='scicontentnano']/div[@class='nano-content']/
+                            "div[@class='scicontentnano']/div[@class='nano-content']/"
                             "ul[@class='talksblock']")
             
             response = scrapy.Selector(text=self.driver.page_source)
