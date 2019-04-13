@@ -46,6 +46,7 @@ class google(scrapy.Spider):
             
             response = scrapy.Selector(text=self.driver.page_source)
             print(len(response.xpath(session_xpath)))
+            conference_url = self.driver.url
             for j in range(0, len(response.xpath(session_xpath))):
                 print("IN 2")
                 talks_xpath = session_xpath + "[%s]/li" % (str(j+1))
@@ -62,6 +63,8 @@ class google(scrapy.Spider):
                 
                     text_xpath = "//div[@id='primary']/p/text()"
                     text = "".join(response.xpath(text_xpath).extract())
+                    self.driver.get(conference_url)
+                    time.sleep(1)
             
             print("NEW URL")
             self.driver.get(url)
