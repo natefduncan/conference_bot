@@ -31,10 +31,7 @@ class google(scrapy.Spider):
         
         response = scrapy.Selector(text=self.driver.page_source)
         
-        conference_xpath = ("/body/div[@class='body_content']/div[@class='mainpagecontent']/"
-                            "div[@id='citationindex']/div[@class='sciwrapper']/"
-                            "div[@id='scicontentnano']/div[@class='nano-content']/"
-                            "ul[@class='conflist']/li")
+        conference_xpath = ("ul[@class='conflist']/li")
         print("TRYING")
         
         for i in range(0, len(response.xpath(conference_xpath))):
@@ -45,11 +42,13 @@ class google(scrapy.Spider):
             conference.click()
             time.sleep(1)
             
-            session_xpath = "//ul[@class='talksblock']"
+            session_xpath = ("/body/div[@id='body_content']/div[@class='mainpagecontent']/"
+                            "div[@id='citationindex']/div[@class='sciwrapper']/"
+                            "div[@class='scicontentnano']/div[@class='nano-content']/
+                            "ul[@class='talksblock']")
             
             response = scrapy.Selector(text=self.driver.page_source)
             print(len(response.xpath(session_xpath)))
-            conference_url = self.driver.current_url
             for j in range(0, len(response.xpath(session_xpath))):
                 print("IN 2")
                 talks_xpath = session_xpath + "[%s]/li" % (str(j+1))
@@ -66,8 +65,6 @@ class google(scrapy.Spider):
                 
                     text_xpath = "//div[@id='primary']/p/text()"
                     text = "".join(response.xpath(text_xpath).extract())
-                    self.driver.get(conference_url)
-                    time.sleep(1)
             
             print("NEW URL")
             self.driver.get(url)
