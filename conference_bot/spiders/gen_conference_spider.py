@@ -45,13 +45,12 @@ class google(scrapy.Spider):
             session_xpath = "//ul[@class='talksblock']"
             
             response = scrapy.Selector(text=self.driver.page_source)
-            
+            print(len(response.xpath(session_xpath)))
             for j in range(0, len(response.xpath(session_xpath))):
                 print("IN 2")
                 talks_xpath = session_xpath + "[%s]/li" % (str(j+1))
                 
                 for k in range(0, len(response.xpath(talks_xpath))):
-                    print(response.xpath(talks_xpath))
                     print("IN 3")
                     talk_xpath = talks_xpath + "[%s]/a[1]" % (str(k+1))
                     print(response.xpath(talk_xpath))
