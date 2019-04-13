@@ -1,6 +1,7 @@
 #General packages
 import scrapy
 import os
+import time
 
 path = os.path.dirname(os.path.realpath(__file__))
 os.chdir(path)
@@ -17,14 +18,16 @@ class google(scrapy.Spider):
     def start_requests(self):
         urls = ["https://scriptures.byu.edu/#::g"]
         for url in urls:
-            yield scrapy.Request(url=url, callback=self.parse)
+            yield scrapy.Request(url=url, callback=self.parse, meta={'url' : url})
     
     def __init__(self):
         self.driver = webdriver.Firefox()
         
     def parse(self, response):
-        print(response.body)
-        self.driver.get(response.url)
+        url = response.meta['url']
+        self.driver.get(url)
+        
+        time.sleep(3)
         
         response = scrapy.Selector(text=self.driver.page_source)
         
