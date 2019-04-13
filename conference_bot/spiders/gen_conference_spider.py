@@ -39,19 +39,23 @@ class google(scrapy.Spider):
             conference.click()
             time.sleep(1)
             
-            talk_xpath = "//ul[@class='talksblock']/li"
+            session_xpath = "//ul[@class='talksblock']"
             
             response2 = scrapy.Selector(text=self.driver.page_source)
-            response2.xpath(talk_xpath)
             
-            for j in range(0, len(response2.xpath(talk_xpath))):
-                talk = self.driver.find_element_by_xpath(talk_xpath + "[%s]/a" % (str(j+1)))
-                talk.click()
-                time.sleep(1)
-                response3 = scrapy.Selector(text=self.driver.page_source)
+            for j in range(0, len(response2.xpath(session_xpath))):
+                talks_xpath = session_xpath + "[%s]/li" % (str(j+1))
                 
-                text_xpath = "//div[@class='primary']/p"
-                print(response3.xpath(text_xpath).extract())
+                for k in range(0, len(response2.xpath(talks_xpath))):
+                    talk_xpath = talks_xpath + "[%s]/a" % (str(k+1))
+                    talk = self.driver.find_element_by_xpath(talk_xpath)
+                    talk.click()
+                    time.sleep(1)
+                    
+                    response3 = scrapy.Selector(text=self.driver.page_source)
+                
+                    text_xpath = "//div[@id='primary']/p"
+                    print("".join(response3.xpath(text_xpath).extract()))
                 
             self.driver.get(url)
             time.sleep(3)
