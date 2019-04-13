@@ -42,10 +42,7 @@ class google(scrapy.Spider):
             conference.click()
             time.sleep(1)
             
-            session_xpath = ("//body/div[@id='body_content']/div[@class='mainpagecontent']/"
-                            "div[@id='citationindex']/div[@class='sciwrapper']/"
-                            "div[contains(@class, 'scicontent nano')]/div[@class='nano-content']/"
-                            "ul[@class='talksblock']")
+            session_xpath = ("//ul[@class='talksblock']")
             
             response = scrapy.Selector(text=self.driver.page_source)
             print(len(response.xpath(session_xpath)))
@@ -55,7 +52,7 @@ class google(scrapy.Spider):
                 
                 for k in range(0, len(response.xpath(talks_xpath))):
                     print("IN 3")
-                    talk_xpath = talks_xpath + "[%s]/a[1]" % (str(k+1))
+                    talk_xpath = talks_xpath + "[%s]/a[1]/div[1]" % (str(k+1))
                     print(response.xpath(talk_xpath))
                     talk = self.driver.find_element_by_xpath(talk_xpath)
                     talk.click()
