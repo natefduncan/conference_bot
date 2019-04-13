@@ -23,13 +23,15 @@ class google(scrapy.Spider):
         self.driver = webdriver.Firefox()
         
     def parse(self, response):
+        print(response.body)
         self.driver.get(response.url)
         
         response = scrapy.Selector(text=self.driver.page_source)
         
-        conference_xpath = ("//ul[@class='conflist']/li")
+        conference_xpath = ("/ul[@class='conflist']/li")
         
         for i in response.xpath(conference_xpath):
+            print(i)
             print(i.xpath("a/text()").extract())
         
         #Get search box input. 
