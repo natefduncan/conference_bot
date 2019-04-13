@@ -35,7 +35,7 @@ class google(scrapy.Spider):
         print("TRYING")
         
         for i in range(0, len(response.xpath(conference_xpath))):
-            conference = driver.find_element_by_xpath(conference_xpath + "/a[%s]" % (str(i))
+            conference = driver.find_element_by_xpath(conference_xpath + "/a[%s]" % (str(i+1))
             conference.click()
             time.sleep(1)
             
