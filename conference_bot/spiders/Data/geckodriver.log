@@ -1,0 +1,11 @@
+1555260775909	geckodriver	INFO	Listening on 127.0.0.1:46921
+1555260777494	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1555260781948	Marionette	INFO	Listening on port 33831
+1555260812453	geckodriver	INFO	Listening on 127.0.0.1:60633
+1555260814031	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1555260818152	Marionette	INFO	Listening on port 34391
+1555260818616	Marionette	WARN	TLS certificate errors will be ignored for this session
+Xlib:  extension "XInputExtension" missing on display ":1.0".
+Xlib:  extension "XInputExtension" missing on display ":1.0".
+Xlib:  extension "XInputExtension" missing on display ":1.0".
+Xlib:  extension "XInputExtension" missing on display ":1.0".
