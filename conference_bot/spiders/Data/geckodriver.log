@@ -9,3 +9,14 @@ Xlib:  extension "XInputExtension" missing on display ":1.0".
 Xlib:  extension "XInputExtension" missing on display ":1.0".
 Xlib:  extension "XInputExtension" missing on display ":1.0".
 Xlib:  extension "XInputExtension" missing on display ":1.0".
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+Xlib:  extension "XInputExtension" missing on display ":1.0".
+Xlib:  extension "XInputExtension" missing on display ":1.0".
+Xlib:  extension "XInputExtension" missing on display ":1.0".
+Xlib:  extension "XInputExtension" missing on display ":1.0".
+Xlib:  extension "XInputExtension" missing on display ":1.0".
