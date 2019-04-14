@@ -58,12 +58,18 @@ class google(scrapy.Spider):
                     talk = self.driver.find_element_by_xpath(talk_xpath)
                     self.driver.execute_script("arguments[0].scrollIntoView(true);", talk)
                     talk.click()
-                    time.sleep(1)
+                    time.sleep(3)
                     
                     response = scrapy.Selector(text=self.driver.page_source)
                 
                     text_xpath = "//div[@id='primary']/p/text()"
+                    
+                    file_name = response.xpath("//div[@id='talklabel']/a/text()").extract()[0]
+                    file_name += response.xpath("//div[@id='talklabel']/text()").extract()[0]
+                    
                     text = "".join(response.xpath(text_xpath).extract())
+                    with "/Data/" + file_name + ".txt" as file:
+                        file.write(text)
             
             print("NEW URL")
             self.driver.get(url)
