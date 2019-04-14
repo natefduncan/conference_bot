@@ -2,8 +2,10 @@
 import scrapy
 import os
 import time
+from pathlib import Path
 
-path = os.path.dirname(os.path.realpath(__file__))
+path = Path(os.path.dirname(os.path.realpath(__file__)))
+path = path / "Data"
 os.chdir(path)
 
 #Selenium packages
@@ -68,7 +70,7 @@ class google(scrapy.Spider):
                     file_name += response.xpath("//div[@id='talklabel']/text()").extract()[0]
                     
                     text = u"".join(response.xpath(text_xpath).extract()).encode("utf-8")
-                    with "/Data/" + file_name + ".txt" as file:
+                    with open("/Data/" + file_name + ".txt", "w+") as file:
                         file.write(text)
             
             print("NEW URL")
