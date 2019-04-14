@@ -40,8 +40,7 @@ class google(scrapy.Spider):
             time.sleep(3)
             
             conference = self.driver.find_element_by_xpath(conference_xpath + "[%s]/a" % (str(i+1)))
-            actions = ActionChains(self.driver)
-            actions.move_to_element(conference).perform()
+            self.driver.execute_script("arguments[0].scrollIntoView(true);", conference)
             conference.click()
             time.sleep(1)
             
@@ -57,8 +56,7 @@ class google(scrapy.Spider):
                     print("IN 3")
                     talk_xpath = talks_xpath + "[%s]/a[contains(@onclick, 'getTalk')]/div[contains(@class, 'talktitle')]" % (str(k+1))
                     talk = self.driver.find_element_by_xpath(talk_xpath)
-                    actions = ActionChains(self.driver)
-                    actions.move_to_element(talk).perform()
+                    self.driver.execute_script("arguments[0].scrollIntoView(true);", talk)
                     talk.click()
                     time.sleep(1)
                     
