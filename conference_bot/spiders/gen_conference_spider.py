@@ -45,7 +45,7 @@ class google(scrapy.Spider):
             time.sleep(3)
             
             conference = self.driver.find_element_by_xpath(conference_xpath + "[%s]/a" % (str(i+1)))
-            actions = ActionChains(driver)
+            actions = ActionChains(self.driver)
             actions.move_to_element(conference).perform()
             conference.click()
             time.sleep(1)
@@ -64,7 +64,7 @@ class google(scrapy.Spider):
                     talk_xpath = talks_xpath + "[%s]/a[contains(@onclick, 'getTalk')]/div[contains(@class, 'talktitle')]" % (str(k+1))
                     print(response.xpath(talk_xpath))
                     talk = self.driver.find_element_by_xpath(talk_xpath)
-                    actions = ActionChains(driver)
+                    actions = ActionChains(self.driver)
                     actions.move_to_element(talk).perform()
                     print(talk)
                     talk.click()
