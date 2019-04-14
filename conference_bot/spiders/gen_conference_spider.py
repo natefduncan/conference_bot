@@ -70,7 +70,7 @@ class google(scrapy.Spider):
                     file_name += response.xpath("//div[@id='talklabel']/text()").extract()[0]
                     
                     text = u"".join(response.xpath(text_xpath).extract()).encode("utf-8")
-                    with open("/Data/" + file_name + ".txt", "w+") as file:
+                    with open(file_name + ".txt", "w+") as file:
                         file.write(text)
             
             print("NEW URL")
