@@ -67,7 +67,7 @@ class google(scrapy.Spider):
                     file_name = response.xpath("//div[@id='talklabel']/a/text()").extract()[0]
                     file_name += response.xpath("//div[@id='talklabel']/text()").extract()[0]
                     
-                    text = "".join(response.xpath(text_xpath).extract())
+                    text = u"".join(response.xpath(text_xpath).extract()).encode("utf-8")
                     with "/Data/" + file_name + ".txt" as file:
                         file.write(text)
             
