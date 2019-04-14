@@ -13,11 +13,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
 
-element = driver.find_element_by_id("my-id")
-
-actions = ActionChains(driver)
-actions.move_to_element(element).perform()
-
 class google(scrapy.Spider):
     name = "gen_conference"
     
@@ -53,7 +48,6 @@ class google(scrapy.Spider):
             session_xpath = ("//ul[@class='talksblock']")
             
             response = scrapy.Selector(text=self.driver.page_source)
-            print(len(response.xpath(session_xpath)))
             for j in range(0, len(response.xpath(session_xpath))):
                 print("IN 2")
                 talks_xpath = session_xpath + "[%s]/li" % (str(j+1))
@@ -62,11 +56,9 @@ class google(scrapy.Spider):
                 for k in range(0, len(response.xpath(talks_xpath))):
                     print("IN 3")
                     talk_xpath = talks_xpath + "[%s]/a[contains(@onclick, 'getTalk')]/div[contains(@class, 'talktitle')]" % (str(k+1))
-                    print(response.xpath(talk_xpath))
                     talk = self.driver.find_element_by_xpath(talk_xpath)
                     actions = ActionChains(self.driver)
                     actions.move_to_element(talk).perform()
-                    print(talk)
                     talk.click()
                     time.sleep(1)
                     
