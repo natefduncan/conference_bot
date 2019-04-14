@@ -6,7 +6,7 @@ from pathlib import Path
 
 path = Path(os.path.dirname(os.path.realpath(__file__)))
 path = path / "Data"
-os.chdir(path)
+os.chdir(str(path))
 
 #Selenium packages
 from selenium import webdriver
