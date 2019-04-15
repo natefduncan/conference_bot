@@ -2,6 +2,7 @@ import os
 from textgenrnn import textgenrnn
 from pathlib import Path
 
+
 #Directories
 path = Path(os.path.dirname(os.path.realpath(__file__)))
 data_path = path / "conference_bot" / "spiders" / "Data"
@@ -34,11 +35,11 @@ with open("all_talks.txt", "a+") as file:
     file.write(text)
 
 textgen = textgenrnn()
-textgen.train_from_largetext_file("all_talks.txt", new_model=True, num_epochs=1,
-                                  word_level=True,
-                                  max_length=10,
-                                  max_gen_length=50,
-                                  max_words=5000)
+textgen.train_from_largetext_file("all_talks.txt")
 
 textgen.save('conference_weights.hdf5')
 
+'''
+textgen = textgenrnn("textgenrnn_weights.hdf5")
+textgen.generate(3, temperature=.2, prefix="I promise")
+'''
