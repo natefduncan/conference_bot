@@ -8,7 +8,7 @@ path = Path(os.path.dirname(os.path.realpath(__file__)))
 data_path = path / "conference_bot" / "spiders" / "Data"
 os.chdir(str(data_path))
 os.getcwd()
-
+'''
 #Get text function. 
 def get_text(file_name):
     with open(file_name, 'r') as file:
@@ -22,9 +22,9 @@ text = ""
 for i in files:
     print(i)
     text += " " + get_text(i)
-
+'''
 os.chdir(str(path))
-
+'''
 #Erase the file if it exists.
 config = Path(str(path) + "//all_talks.txt")
 if config.is_file():
@@ -34,7 +34,7 @@ if config.is_file():
 #Write all the talks into one text file. 
 with open("all_talks.txt", "a+") as file:
     file.write(text)
-
+'''
 textgen = textgenrnn()
 textgen.train_from_largetext_file("all_talks.txt")
 
