@@ -8,6 +8,7 @@ path = Path(os.path.dirname(os.path.realpath(__file__)))
 data_path = path / "conference_bot" / "spiders" / "Data"
 os.chdir(str(data_path))
 os.getcwd()
+
 #Get text function. 
 def get_text(file_name):
     with open(file_name, 'r') as file:
