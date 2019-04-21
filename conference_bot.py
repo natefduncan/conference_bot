@@ -42,7 +42,7 @@ with open("all_talks.txt", "a+") as file:
     file.write(text)
 '''
 
-textgen = textgenrnn()
+10_k = textgenrnn()
 
 all_text = get_text("all_talks.txt")
 import nltk.data
@@ -54,13 +54,21 @@ tokened = tokenizer.tokenize(all_text)
 all_sentences = [text_errors(i) for i in tokened]
 print(len(all_sentences))
 
-subset = all_sentences
+subset = all_sentences[:10000]
 
-textgen.train_on_texts(subset, num_epochs=2, word_level=True)
+10_k.train_on_texts(subset, 
+                       new_model=True,
+                       word_level=True,
+                       rnn_bidirectional=True,
+                       rnn_size=64,
+                       max_length=20,
+                       num_epochs=1)
 
-textgen.save('conference_weights_all_words.hdf5')
+10_k.save('conference_weights_10k_.hdf5')
 
-'''
-textgen = textgenrnn("conference_weights.hdf5", vocab_path="textgenrnn_vocab.json", config_path="textgenrnn_config.json")
-textgen.generate(20, temperature=.2)
-'''
+"""
+textgen = textgenrnn("conference_weights.hdf5", 
+                     vocab_path="textgenrnn_vocab.json", 
+                     config_path="textgenrnn_config.json")
+textgen.generate(20, temperature=.5,prefix = "when")
+"""
