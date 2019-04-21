@@ -42,7 +42,7 @@ with open("all_talks.txt", "a+") as file:
     file.write(text)
 '''
 
-10_k = textgenrnn()
+ten_k = textgenrnn()
 
 all_text = get_text("all_talks.txt")
 import nltk.data
@@ -56,7 +56,7 @@ print(len(all_sentences))
 
 subset = all_sentences[:10000]
 
-10_k.train_on_texts(subset, 
+ten_k.train_on_texts(subset, 
                        new_model=True,
                        word_level=True,
                        rnn_bidirectional=True,
@@ -64,7 +64,7 @@ subset = all_sentences[:10000]
                        max_length=20,
                        num_epochs=1)
 
-10_k.save('conference_weights_10k_.hdf5')
+ten_k.save('conference_weights_10k_.hdf5')
 
 """
 textgen = textgenrnn("conference_weights.hdf5", 
