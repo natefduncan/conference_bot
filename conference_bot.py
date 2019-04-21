@@ -17,6 +17,7 @@ def get_text(file_name):
 def text_errors(text):
   text = text.replace(u"\ufb01", "")
   text = text.replace(u"\ufb02", "")
+  text = text.replace(u"\u20e3", "")
   return text
     
 '''
@@ -53,11 +54,11 @@ tokened = tokenizer.tokenize(all_text)
 all_sentences = [text_errors(i) for i in tokened]
 print(len(all_sentences))
 
-subset = all_sentences[:100000]
+subset = all_sentences
 
-textgen.train_on_texts(subset, num_epochs=10, word_level=False)
+textgen.train_on_texts(subset, num_epochs=2, word_level=True)
 
-textgen.save('conference_weights_100k_text.hdf5')
+textgen.save('conference_weights_all_words.hdf5')
 
 '''
 textgen = textgenrnn("conference_weights.hdf5", vocab_path="textgenrnn_vocab.json", config_path="textgenrnn_config.json")
