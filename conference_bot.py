@@ -1,6 +1,7 @@
 import os
 from textgenrnn import textgenrnn
 from pathlib import Path
+import tensorflow as tf
 
 
 #Directories
@@ -8,13 +9,19 @@ path = Path(os.path.dirname(os.path.realpath(__file__)))
 data_path = path / "conference_bot" / "spiders" / "Data"
 os.chdir(str(data_path))
 os.getcwd()
-'''
+
 #Get text function. 
 def get_text(file_name):
-    with open(file_name, 'r') as file:
-        data = file.read().replace('\n', '')
+    with open(file_name, 'r', encoding='utf-8') as file:
+        data = file.read()
     return data
 
+def text_errors(text):
+  text = text.replace(u"\ufb01", "")
+  text = text.replace(u"\ufb02", "")
+  return text
+    
+'''
 #Create master text file. 
 files = os.listdir(data_path)
 
@@ -35,10 +42,24 @@ if config.is_file():
 with open("all_talks.txt", "a+") as file:
     file.write(text)
 '''
-textgen = textgenrnn()
-textgen.train_from_largetext_file("all_talks.txt")
 
-textgen.save('conference_weights.hdf5')
+textgen = textgenrnn()
+
+all_text = get_text("all_talks.txt")
+import nltk.data
+import sys
+
+tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
+tokened = tokenizer.tokenize(all_text)
+
+all_sentences = [text_errors(i) for i in tokened]
+print(len(all_sentences))
+
+subset = all_sentences[:100000]
+
+textgen.train_on_texts(subset, new_model=True, num_epochs=25, word_level=True)
+
+textgen.save('conference_weights_100k.hdf5')
 
 '''
 textgen = textgenrnn("textgenrnn_weights.hdf5")
