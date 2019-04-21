@@ -1,8 +1,6 @@
 import os
 from textgenrnn import textgenrnn
 from pathlib import Path
-import tensorflow as tf
-
 
 #Directories
 path = Path(os.path.dirname(os.path.realpath(__file__)))
@@ -57,11 +55,11 @@ print(len(all_sentences))
 
 subset = all_sentences[:100000]
 
-textgen.train_on_texts(subset, new_model=True, num_epochs=25, word_level=True)
+textgen.train_on_texts(subset, num_epochs=10, word_level=False)
 
-textgen.save('conference_weights_100k.hdf5')
+textgen.save('conference_weights_100k_text.hdf5')
 
 '''
-textgen = textgenrnn("textgenrnn_weights.hdf5")
-textgen.generate(3, temperature=.2, prefix="I promise")
+textgen = textgenrnn("conference_weights.hdf5", vocab_path="textgenrnn_vocab.json", config_path="textgenrnn_config.json")
+textgen.generate(20, temperature=.2)
 '''
