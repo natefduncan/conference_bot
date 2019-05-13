@@ -42,6 +42,7 @@ with open("all_talks.txt", "a+") as file:
     file.write(text)
 '''
 
+"""
 ten_k = textgenrnn()
 
 all_text = get_text("all_talks.txt")
@@ -67,8 +68,8 @@ ten_k.train_on_texts(subset,
 ten_k.save('conference_weights_10k_.hdf5')
 
 """
-textgen = textgenrnn("conference_weights.hdf5", 
+textgen = textgenrnn("textgenrnn_weights.hdf5", 
                      vocab_path="textgenrnn_vocab.json", 
                      config_path="textgenrnn_config.json")
-textgen.generate(20, temperature=.5,prefix = "when")
-"""
+textgen.generate(20, temperature=.5, prefix="find")
+
